@@ -1,10 +1,9 @@
 สารบัญ [hide]
 Stable Diffusion คืออะไร?
-![Alt text](image.png)
-
 ภาพสามารถเป็นภาพที่เหมือนจริงเหมือนภาพที่ถ่ายด้วยกล้อง หรือในรูปแบบศิลปะราวกับว่าสร้างโดยศิลปินมืออาชีพ
 ส่วนที่ดีที่สุดคือมันฟรี – คุณสามารถเรียกใช้งานได้บนพีซีของคุณ
-![Alt text](image-1.png)
+![Alt text](image-1.png| width=50%)
+
 Stable Diffusion AI เอาไว้ใช้อะไร?
 Stable Diffusion AI ฟรีไหม?
 Stable Diffusion online
