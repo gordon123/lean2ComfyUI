@@ -1,5 +1,7 @@
 ## In this section, we will install ComfyUI on Runpod  
 I have prepared the necessary files. You can download them from the following steps:  
+Download this script and upload to Jupyterlab
+https://github.com/gordon123/lean2ComfyUI/blob/f6d206900baabd3084d036a92c907102aba66265/file%20script/Install_ComfyUI_on_RUNPOD.ipynb
 
 ### 1. Download the Install ComfyUI file  
 - Download the **Install_ComfyUI (test1) (1).ipynb** file from the **file script** folder.  
