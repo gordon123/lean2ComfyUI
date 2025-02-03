@@ -74,7 +74,7 @@
 ### 2. **การติดตั้ง ComfyUI และ Custom Nodes Manager เสร็จสิ้น!**  
 
 ### 3. ทดสอบรัน ComfyUI  
-- ไปที่ **Cell 18** แล้วกด **Run**  
+- ไปที่ **Cell 8** แล้วกด **Run**  
   - ครั้งแรกอาจใช้เวลานาน  
   ![image](https://github.com/user-attachments/assets/65c647e3-8a43-4223-a758-d104fa2f7e83)  
 
