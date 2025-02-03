@@ -51,7 +51,7 @@
   ![image](https://github.com/user-attachments/assets/5a5a93c3-428e-4d77-ade6-0360c9962d95)
 
   **พร้อมใช้งานแล้ว อ่านต่อการ Instqll ComfyUI ||>>>>**
-
+If you are new to use Runpod and need to support me you can click my affiliate link here [runpod.io](https://runpod.io?ref=c0v5p0ys)
   
 
 
