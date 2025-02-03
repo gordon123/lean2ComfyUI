@@ -64,7 +64,7 @@ copy ip address และ port เหมือนในตัวอย่าง 
 ![image](https://github.com/user-attachments/assets/143776b5-7e37-41f6-9e0b-9ce31e91bfc3)
 
 Now we get brand new ComfyUi installed on Runpod GPU server
-If you are new to use Runpod and need to support me, 
-you can click my affiliate link here [runpod.io](https://runpod.io?ref=c0v5p0ys) Thank you >D
+**If you are new to use Runpod and need to support me, 
+you can click my affiliate link here [runpod.io](https://runpod.io?ref=c0v5p0ys) Thank you >D**
 
 
