@@ -47,7 +47,7 @@
   กด Connect
   ![image](https://github.com/user-attachments/assets/6c641237-6332-4924-a94d-6a622cfbf8d4)
 
-  Jupyter สีเขียว ๆ Reqdy
+  Jupyter สีเขียว ๆ Ready พร้อมใช้งาน
   ![image](https://github.com/user-attachments/assets/5a5a93c3-428e-4d77-ade6-0360c9962d95)
 
   **พร้อมใช้งานแล้ว อ่านต่อการ Instqll ComfyUI ||>>>>**
