@@ -1,5 +1,0 @@
-Link ComfyUI
-
-Installer ComfyUI
-https://github.com/comfyanonymous/ComfyUI
-
