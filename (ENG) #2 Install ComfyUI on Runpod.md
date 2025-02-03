@@ -74,7 +74,7 @@ I have prepared the necessary files. You can download them from the following st
 ### 2. **ComfyUI and Custom Nodes Manager installation is complete!**  
 
 ### 3. Test running ComfyUI  
-- Go to **Cell 18** and click **Run**.  
+- Go to **Cell 8** and click **Run**.  
   - The first startup might take a bit longer.  
   ![image](https://github.com/user-attachments/assets/65c647e3-8a43-4223-a758-d104fa2f7e83)  
 
