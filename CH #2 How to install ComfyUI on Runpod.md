@@ -63,7 +63,7 @@ copy ip address และ port เหมือนในตัวอย่าง 
 ตัวอย่างในรูป 78.130.201.2:18814 ไปวางที่หน้าเว๊ป browser
 ![image](https://github.com/user-attachments/assets/143776b5-7e37-41f6-9e0b-9ce31e91bfc3)
 
-เป็นอัน เสร็จ การติดตั้ง ComfyUi บน Runpod 
-
+Now we get brand new ComfyUi installed on Runpod GPU server
+If you are new to use Runpod and need to support me you can click my affiliate link here [runpod.io](https://runpod.io?ref=c0v5p0ys)
 
 
