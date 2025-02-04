@@ -11,10 +11,10 @@
 - **Double-click** the file to open it.  
 
 ### 4. Flux Model  
-- This script **downloads all Flux models** from **Hugging Face**.  
+- This script **downloads all Flux models** from **huggingface.co**.  
 
-### 5. You need a **Hugging Face ID**  
-- It is recommended to create a **Hugging Face ID** before proceeding.  
+### 5. You need a **Huggingface ID**  
+- It is recommended to create a **Huggingface ID** before proceeding.  
 - You will need your **Access Token** to download the files.  
 
 ### 6. How to get an Access Token  
@@ -28,7 +28,7 @@
 
 ### 8. **Grant Access before downloading models**  
 - You must **Grant Access** for each **Flux model** before downloading.  
-- You can do this on the **Hugging Face Repo**.  
+- You can do this on the **Huggingface Repo**.  
 
 ### 9. Start downloading Flux models  
 - Open the **Install_Model_Flux_ON_Runpod.ipynb** file located in the **File script** folder.  
@@ -36,9 +36,9 @@
 ### 10. Run Cell 1  
 - Click **Run Cell 1**.  
 
-### 11. Run Cell 2 and enter your **Hugging Face Token Key**  
+### 11. Run Cell 2 and enter your **Huggingface Token Key**  
 - Click **Run Cell 2**.  
-- Then, **enter your Hugging Face Token Key**.  
+- Then, **enter your Huggingface Token Key**.  
 
 ### 12. **Grant Access to each model before downloading**  
 - Before running Cell 3, you must **Grant Access**.  
