@@ -3,6 +3,8 @@ I have prepared the necessary files. You can download them from the following st
 Download this script and upload to Jupyterlab
 https://github.com/gordon123/lean2ComfyUI/blob/f6d206900baabd3084d036a92c907102aba66265/file%20script/Install_ComfyUI_on_RUNPOD.ipynb
 
+[![Watch on YouTube](https://img.youtube.com/vi/oDSnH_nAhvY/0.jpg)](https://www.youtube.com/watch?v=oDSnH_nAhvY)
+
 ### 1. Download the Install ComfyUI file  
 - Download the **Install_ComfyUI (test1) (1).ipynb** file from the **file script** folder.  
   ![image](https://github.com/user-attachments/assets/8a9ae345-ad6e-46ca-b94e-f81ec57dc72e)  
