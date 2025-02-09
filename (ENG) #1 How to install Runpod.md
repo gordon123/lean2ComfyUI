@@ -4,6 +4,8 @@
 This is a space to collect knowledge that I’ve picked up from various sources and put together.  
 I personally don’t have a powerful computer, so I primarily use cloud services like [runpod.io](https://runpod.io?ref=c0v5p0ys).  
 
+[![Watch the video](https://img.youtube.com/vi/KvZRuwcZ3Is/0.jpg)](https://www.youtube.com/watch?v=KvZRuwcZ3Is)
+
 ## Signing up for Runpod.io  
 When using Runpod, you pay based on the computing resources you use per hour.  
 I usually go for options that cost around **$0.2 - $0.4 per hour**. Using it for about **6 hours** costs approximately **$2.5 - $3.5 USD (or around 85 THB for 6 hours)**, which is very affordable compared to buying a high-spec PC.  
