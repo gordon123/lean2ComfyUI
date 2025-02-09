@@ -1,5 +1,7 @@
 ## Downloading Flux Models and Connecting Nodes  
 
+[![Watch on YouTube](https://img.youtube.com/vi/hpuM1499emI/0.jpg)](https://www.youtube.com/watch?v=hpuM1499emI)
+
 ### 1. Download the Install_Model_Flux_ON_Runpod.ipynb file  
 - This file is located in the **File script** folder.  
 
