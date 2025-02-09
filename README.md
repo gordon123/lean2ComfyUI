@@ -1,3 +1,9 @@
+## here is my first series of my ComfyUI **Learning by doing''
+
+[![Watch the Playlist](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/playlist?list=PLSPWSpkmItyKRoaAHRMbXVf70yb_2utLi)
+
+
+
 Hello,
 
 Here is my personal vlog to play around with ComfyUI! <br>
