@@ -1,6 +1,8 @@
 ## บทนี้เราจะมาเริ่ม Install ComfyUI บน Runpod กัน  
 ผมได้เตรียมไฟล์ไว้แล้ว เพื่อนๆ สามารถไปโหลดได้ที่  
 
+[![Watch on YouTube](https://img.youtube.com/vi/oDSnH_nAhvY/0.jpg)](https://www.youtube.com/watch?v=oDSnH_nAhvY)
+
 ### 1. ดาวน์โหลดไฟล์ Install ComfyUI  
 - เพื่อน ๆ สามารถโหลดไฟล์ **Install_ComfyUI (test1) (1).ipynb** จากโฟลเดอร์ **file script**  
   ![image](https://github.com/user-attachments/assets/8a9ae345-ad6e-46ca-b94e-f81ec57dc72e)  
