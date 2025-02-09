@@ -1,5 +1,7 @@
 ## การโหลดโมเดล Flux ต่าง ๆ และการต่อ Nodes  
 
+[![Watch on YouTube](https://img.youtube.com/vi/hpuM1499emI/0.jpg)](https://www.youtube.com/watch?v=hpuM1499emI)
+
 ### 1. ดาวน์โหลดไฟล์ Install_Model_Flux_ON_Runpod.ipynb  
 - ไฟล์นี้อยู่ในโฟลเดอร์ **File script**  
 
