@@ -1,4 +1,4 @@
-## here is my first series of my ComfyUI on Youtube! **Learning by doing'' (speak in thai) (Subtitle, English, Chinese, Korean, Japanese, 
+## here is my first series of my ComfyUI on Youtube! **Learning by doing'' (speak in thai) (Subtitle, English, Chinese, Korean, Japanese, (need more? leave in comment) 
 <br>
 
 [![Watch the Playlist](https://img.youtube.com/vi/KvZRuwcZ3Is/0.jpg)](https://www.youtube.com/playlist?list=PLSPWSpkmItyKRoaAHRMbXVf70yb_2utLi)
