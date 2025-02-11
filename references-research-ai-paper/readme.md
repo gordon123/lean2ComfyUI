@@ -9,3 +9,7 @@ Sound/Voice clone areana ! https://huggingface.co/spaces/TTS-AGI/TTS-Arena
 
 1. PyThaiNLP: Thai Natural Language Processing in Python https://arxiv.org/pdf/2312.04649 <br>
 2. PyThaiNLP open source https://pythainlp.org/thai-tutorials/index.html
+
+
+## Reference for Video generative AI
+The areana!!  https://huggingface.co/spaces/ArtificialAnalysis/Text-to-Image-Leaderboard
