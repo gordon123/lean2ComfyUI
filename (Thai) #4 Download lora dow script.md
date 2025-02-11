@@ -1,4 +1,4 @@
-# แนะนำวิธีการโหลด Upload, Download Loras จาก เว๊ป Repo อื่น ๆ 
+# แนะนำวิธีการโหลด Upload, Download Loras จาก เว๊ป Repo อื่น ๆ  (กำลังเขียนจ้า ยังไม่เสร็จ)
 
 -Quick setup runpod <br>
 -Quick Install <br>
