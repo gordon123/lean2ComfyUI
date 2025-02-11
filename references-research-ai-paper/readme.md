@@ -4,3 +4,4 @@
 
 ### References for Sound/Voice/Musics generative AI 
 1. PyThaiNLP: Thai Natural Language Processing in Python https://arxiv.org/pdf/2312.04649 <br>
+2. PyThaiNLP open source https://pythainlp.org/thai-tutorials/index.html
