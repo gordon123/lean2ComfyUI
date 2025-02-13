@@ -1,15 +1,18 @@
 In this folder is my script, workflow for comfyUI and here are FLUX collection download link
 
 **Flux Models** <br>
-(In runpod go to this folder ```/workspace/ComfyUI/models/unet```) [23.8GB Flux Dev FP16] https://huggingface.co/black-forest-labs/FLUX.1-dev/tree/main <br>
+(In runpod go to this folder ```/workspace/ComfyUI/models/unet```) [23.8GB Flux Dev FP16] 
+https://huggingface.co/black-forest-labs/FLUX.1-dev/tree/main <br>
 
-(In runpod go to this folder ```/workspace/ComfyUI/models/unet```) [11.9GBFlux Dev FP8.e4m3fn] https://huggingface.co/Kijai/flux-fp8/tree/main <br>
+(In runpod go to this folder ```/workspace/ComfyUI/models/unet```) [11.9GBFlux Dev FP8.e4m3fn] 
+https://huggingface.co/Kijai/flux-fp8/tree/main <br>
 
 (AIO Flux file, In runpod go to this folder ```/workspace/ComfyUI/models/checkpoints```) [17.2 GB Flux Dev FP8]
  https://huggingface.co/lllyasviel/flux1_dev/tree/main <br>
  
 (In runpod go to this folder ```/workspace/ComfyUI/models/unet```) [6.81GB flux1-dev-Q4_K_S.gguf] https://huggingface.co/lllyasviel/FLUX.1-dev-gguf/tree/main <br>
-GGUF Custom node: https://github.com/city96/ComfyUI-GGUF <br>
+GGUF Custom node: 
+https://github.com/city96/ComfyUI-GGUF <br>
 
 Flux Dev NF4 v2 (all in one, includes text encoders and vae) https://huggingface.co/lllyasviel/flux1-dev-bnb-nf4/blob/main/flux1-dev-bnb-nf4-v2.safetensors <br>
 Flux Dev NF4 (Unet, requires text encoders T5, clip_l and VAE) https://huggingface.co/InvokeAI/flux_dev/tree/main/transformer/bnb_nf4 <br>
