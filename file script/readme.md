@@ -1,4 +1,4 @@
-In this folder is my script for Jupyter to setup on Runppod.io for comfyUI and here are FLUX collection download link
+In this folder is my script for Jupyter to setup on [runpod.io](https://runpod.io?ref=c0v5p0ys)  for comfyUI and here are FLUX collection download link
 
 **Flux Models** <br>
 (In runpod go to this folder ```/workspace/ComfyUI/models/unet```) [23.8GB Flux Dev FP16] <br>
