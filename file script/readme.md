@@ -25,19 +25,18 @@ https://huggingface.co/ZhenyaYang/flux_1_dev_hyper_8steps_nf4/tree/main <br>
 
 NF4 custom node : https://github.com/comfyanonymous/ComfyUI_bitsandbytes_NF4 <br>
 
-Flux Lite 8B Alpha  (Unet, requires text encoders T5, clip_l and VAE) https://huggingface.co/Freepik/flux.1-lite-8B-alpha/tree/main <br>
-Flux Lite 8B Alpha GGUF (Unet, requires text encoders T5, clip_l and VAE) https://huggingface.co/city96/flux.1-lite-8B-alpha-gguf/tree/main <br>
+Flux Lite 8B Alpha  (```/workspace/ComfyUI/models/unet```) https://huggingface.co/Freepik/flux.1-lite-8B-alpha/tree/main <br>
+Flux Lite 8B Alpha GGUF (```/workspace/ComfyUI/models/unet```) https://huggingface.co/city96/flux.1-lite-8B-alpha-gguf/tree/main <br>
 
 **Flux Lora** <br>
-Flux Dev 8 & 16 Step Hyper Lora https://huggingface.co/ByteDance/Hyper-SD/tree/main <br>
-Flux Dev Turbo Alpha (8 Step Lora) https://huggingface.co/alimama-creative/FLUX.1-Turbo-Alpha/tree/main <br>
+Flux Dev 8 & 16 Step Hyper Lora ```/workspace/ComfyUI/models/loras``` https://huggingface.co/ByteDance/Hyper-SD/tree/main <br>
+Flux Dev Turbo Alpha (8 Step Lora) ```/workspace/ComfyUI/models/loras``` https://huggingface.co/alimama-creative/FLUX.1-Turbo-Alpha/tree/main <br>
 <br>
 **Flux Text Encoders & VAE** <br>
-Flux T5xxl fp8 https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors <br>
-Flux T5xxl fp16 https://huggingface.co/lllyasviel/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors?download=true <br>
-Flux Text Encoder Vit-L https://huggingface.co/zer0int/CLIP-GmP-ViT-L-14/blob/main/ViT-L-14-TEXT-detail-improved-hiT-GmP-HF.safetensors <br>
+Flux T5xxl-Fp8 & Fp16 https://huggingface.co/comfyanonymous/flux_text_encoders/tree/main/ <br>
+Flux Text Encoder Vit-L https://huggingface.co/zer0int/CLIP-GmP-ViT-L-14/tree/main <br>
 Flux GGUF Text encoders  https://huggingface.co/city96/t5-v1_1-xxl-encoder-gguf/tree/main <br>
-Flux VAE https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/ae.safetensors <br>
+Flux VAE https://huggingface.co/black-forest-labs/FLUX.1-dev/tree/main/ <br>
 
 <br>
 Flux Schnell (4-8 steps) https://huggingface.co/maximsobolev275/flux-fp8-schnell/tree/main  <br>
