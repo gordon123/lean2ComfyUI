@@ -1,20 +1,23 @@
 In this folder is my script, workflow for comfyUI and here are FLUX collection download link
 
 **Flux Models** <br>
-(In runpod go to this folder ```/workspace/ComfyUI/models/unet```) [23.8GB Flux Dev FP16] 
+(In runpod go to this folder ```/workspace/ComfyUI/models/unet```) [23.8GB Flux Dev FP16] <br>
 https://huggingface.co/black-forest-labs/FLUX.1-dev/tree/main <br>
 
-(In runpod go to this folder ```/workspace/ComfyUI/models/unet```) [11.9GBFlux Dev FP8.e4m3fn] 
+(In runpod go to this folder ```/workspace/ComfyUI/models/unet```) [11.9GBFlux Dev FP8.e4m3fn] <br>
 https://huggingface.co/Kijai/flux-fp8/tree/main <br>
 
-(AIO Flux file, In runpod go to this folder ```/workspace/ComfyUI/models/checkpoints```) [17.2 GB Flux Dev FP8]
+(AIO Flux file, In runpod go to this folder ```/workspace/ComfyUI/models/checkpoints```) [17.2 GB Flux Dev FP8]<br>
  https://huggingface.co/lllyasviel/flux1_dev/tree/main <br>
  
-(In runpod go to this folder ```/workspace/ComfyUI/models/unet```) [6.81GB flux1-dev-Q4_K_S.gguf] https://huggingface.co/lllyasviel/FLUX.1-dev-gguf/tree/main <br>
-GGUF Custom node: 
+(In runpod go to this folder ```/workspace/ComfyUI/models/unet```) [6.81GB flux1-dev-Q4_K_S.gguf] <br>
+https://huggingface.co/lllyasviel/FLUX.1-dev-gguf/tree/main <br>
+GGUF Custom node: <br>
 https://github.com/city96/ComfyUI-GGUF <br>
-
-Flux Dev NF4 v2 (all in one, includes text encoders and vae) https://huggingface.co/lllyasviel/flux1-dev-bnb-nf4/blob/main/flux1-dev-bnb-nf4-v2.safetensors <br>
+<br>
+(AIO Flux file, In runpod go to this folder ```/workspace/ComfyUI/models/checkpoints```) [Flux Dev BNB NF4] <br>
+https://huggingface.co/lllyasviel/flux1-dev-bnb-nf4/tree/main <br>
+<br>
 Flux Dev NF4 (Unet, requires text encoders T5, clip_l and VAE) https://huggingface.co/InvokeAI/flux_dev/tree/main/transformer/bnb_nf4 <br>
 Flux Dev 8 Step NF4 Checkpoint  https://huggingface.co/ZhenyaYang/flux_1_dev_hyper_8steps_nf4/tree/main <br>
 NF4 custom node : https://github.com/comfyanonymous/ComfyUI_bitsandbytes_NF4 <br>
