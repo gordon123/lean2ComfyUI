@@ -41,9 +41,9 @@ Flux VAE https://huggingface.co/black-forest-labs/FLUX.1-dev/tree/main/ <br>
 <br>
 Flux Schnell (4-8 steps) https://huggingface.co/maximsobolev275/flux-fp8-schnell/tree/main  <br>
 Flux Schnell FP8(AIO, download flux1-schnell_fp8_unet_vae_clip.safetensors) https://huggingface.co/maximsobolev275/flux-fp8-schnell/tree/main <br>
-Flux Schnell FP8 (Unet ,  vae, clip_l, T5 encoder) https://huggingface.co/maximsobolev275/flux-fp8-schnell/resolve/main/flux1-schnell_fp8_unet.safetensors <br>
+Flux Schnell FP8 (Unet ,  vae, clip_l, T5 encoder) https://huggingface.co/maximsobolev275/flux-fp8-schnell/tree/main <br>
 
-Flux Schnell NF4 (AIO) https://huggingface.co/silveroxides/flux1-nf4-weights/blob/main/flux1-schnell-bnb-nf4.safetensors
+Flux Schnell NF4 (AIO) https://huggingface.co/silveroxides/flux1-nf4-weights/tree/main
 Flux Schnell GGUF https://huggingface.co/lllyasviel/FLUX.1-schnell-gguf/tree/main
 
 **Flux Merged (Dev-Schnell, 4-8 steps)**
