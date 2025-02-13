@@ -18,8 +18,11 @@ https://github.com/city96/ComfyUI-GGUF <br>
 (AIO Flux file, In runpod go to this folder ```/workspace/ComfyUI/models/checkpoints```) [12GB Flux Dev BNB NF4] <br>
 https://huggingface.co/lllyasviel/flux1-dev-bnb-nf4/tree/main <br>
 <br>
-Flux Dev NF4 (Unet, requires text encoders T5, clip_l and VAE) https://huggingface.co/InvokeAI/flux_dev/tree/main/transformer/bnb_nf4 <br>
-Flux Dev 8 Step NF4 Checkpoint  https://huggingface.co/ZhenyaYang/flux_1_dev_hyper_8steps_nf4/tree/main <br>
+(In runpod go to this folder ```/workspace/ComfyUI/models/unet```) <br> https://huggingface.co/InvokeAI/flux_dev/tree/main/transformer/bnb_nf4 <br>
+<br> 
+(AIO Flux file, In runpod go to this folder ```/workspace/ComfyUI/models/checkpoints```) 12GB Flux Dev 8 Step NF4 Checkpoint<br> 
+https://huggingface.co/ZhenyaYang/flux_1_dev_hyper_8steps_nf4/tree/main <br>
+
 NF4 custom node : https://github.com/comfyanonymous/ComfyUI_bitsandbytes_NF4 <br>
 
 Flux Lite 8B Alpha  (Unet, requires text encoders T5, clip_l and VAE) https://huggingface.co/Freepik/flux.1-lite-8B-alpha/tree/main <br>
