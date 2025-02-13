@@ -15,7 +15,7 @@ https://huggingface.co/lllyasviel/FLUX.1-dev-gguf/tree/main <br>
 GGUF Custom node: <br>
 https://github.com/city96/ComfyUI-GGUF <br>
 <br>
-(AIO Flux file, In runpod go to this folder ```/workspace/ComfyUI/models/checkpoints```) [Flux Dev BNB NF4] <br>
+(AIO Flux file, In runpod go to this folder ```/workspace/ComfyUI/models/checkpoints```) [12GB Flux Dev BNB NF4] <br>
 https://huggingface.co/lllyasviel/flux1-dev-bnb-nf4/tree/main <br>
 <br>
 Flux Dev NF4 (Unet, requires text encoders T5, clip_l and VAE) https://huggingface.co/InvokeAI/flux_dev/tree/main/transformer/bnb_nf4 <br>
