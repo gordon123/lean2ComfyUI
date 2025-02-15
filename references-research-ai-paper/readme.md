@@ -19,4 +19,4 @@ The areana!!  https://huggingface.co/spaces/ArtificialAnalysis/Text-to-Image-Lea
 | -------- | ------- | ------- |
 | High-Resolution Image Synthesis with Latent Diffusion Models  |  ต้นกำเนิด Stable diffusion    |https://arxiv.org/abs/2112.10752|
 | Reproducible scaling laws for contrastive language-image learning | งานวิจัยเกี่ยวกับ CLIP ของ OpenAI     |https://arxiv.org/abs/2212.07143 <br> ลิ้งเพิ่มเติม https://github.com/mlfoundations/open_clip|
-| March    | $420    |
+| TBA    | TBA    |TBA|
