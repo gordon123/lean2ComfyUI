@@ -43,5 +43,6 @@ The areana!!  https://huggingface.co/spaces/ArtificialAnalysis/Text-to-Image-Lea
 | **GIT** | [Generative Image-to-Text Transformer](https://arxiv.org/abs/2205.14100) | [arXiv 2205.14100](https://arxiv.org/abs/2205.14100) | 2022 | โมเดลสร้างข้อความจากภาพที่มีความแม่นยำสูง |
 | **Show and Tell** | [A Neural Image Caption Generator](https://arxiv.org/abs/1411.4555) | [arXiv 1411.4555](https://arxiv.org/abs/1411.4555) | 2015 | หนึ่งในโมเดลแรกที่ใช้ CNN+LSTM เพื่อสร้างคำอธิบายภาพอัตโนมัติ |
 | **OCR (Tesseract, TrOCR)** | [OCR for Vision-Language Tasks](https://arxiv.org/abs/2401.02276) | [arXiv 2401.02276](https://arxiv.org/abs/2401.02276) | 2024 | ตรวจจับและดึงข้อความจากภาพ (OCR) เช่น เอกสาร สัญลักษณ์ และป้ายถนน |
+| **Florence** | [Florence: A New Foundation Model for Computer Vision](https://arxiv.org/abs/2111.11432) | [arXiv:2111.11432](https://arxiv.org/pdf/2111.11432) | 2021 | ตรวจจับและดึงข้อความจากภาพ (OCR) เช่น เอกสาร สัญลักษณ์ และป้ายถนน |
 
 
