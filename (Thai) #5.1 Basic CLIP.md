@@ -180,7 +180,5 @@ A [CLS] token เพื่อใช้ในการจำแนกรูปภ
 
 ![self-attention mechanism](image-2.png)
 
-5️⃣ Generating the Final Output <br>
-The [CLS] token from the last Transformer layer is sent to a classifier. <br>
-The classifier predicts the image category. <br>
-🔹 Example:
+5️⃣ เจน output <br>
+
