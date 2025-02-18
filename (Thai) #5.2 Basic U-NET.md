@@ -69,4 +69,10 @@ with torch.no_grad():
     denoised_latent = unet(latent_noise).sample
 
 print("Shape ของ Output:", denoised_latent.shape)  # (1, 4, 64, 64)
+```
 
+U-Net: Convolutional Networks for Biomedical Image Segmentation
+https://arxiv.org/pdf/1505.04597
+
+Denoising Diffusion Probabilistic Models
+https://arxiv.org/pdf/2006.11239
