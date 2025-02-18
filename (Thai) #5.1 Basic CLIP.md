@@ -13,7 +13,8 @@
 ![alt text](image-8.png)
 
 ![image](https://github.com/user-attachments/assets/a9716666-2a46-4bca-83f0-312502dc8187)
-มองในรูปของตัวเลข
+มองในรูปของตัวเลข <br>
+
 3. U-NET
 4. VAE - ตัวเข้ารหัส เรียกเท่ ๆ ว่า Encode จาก Pixel (เช่น รูปภาพ 512 x 512 x 3 RGB color ) เป็น Latent (64 x 64 x 4 channels) และตัวถอดรหัส แปลง Latent มาเป็น Pixel เพื่อได้รูปภาพ
 
