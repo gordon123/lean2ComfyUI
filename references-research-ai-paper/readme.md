@@ -8,7 +8,7 @@ Image generative Areana! https://huggingface.co/spaces/ArtificialAnalysis/Text-t
 | -------- | ------- | ------- |
 | High-Resolution Image Synthesis with Latent Diffusion Models  |  ต้นกำเนิด Stable diffusion    |https://arxiv.org/abs/2112.10752|
 | Reproducible scaling laws for contrastive language-image learning | งานวิจัยเกี่ยวกับ CLIP ของ OpenAI     |https://arxiv.org/abs/2212.07143 <br> ลิ้งเพิ่มเติม https://github.com/mlfoundations/open_clip|
-| TBA    | TBA    |TBA|
+| Adding Conditional Control to Text-to-Image Diffusion Models    | การทำงาน Control net    |[TBA](https://arxiv.org/pdf/2302.05543)|
 
 ## 🔗References for Sound/Voice/Musics generative AI 
 
