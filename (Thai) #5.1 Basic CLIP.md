@@ -195,6 +195,26 @@ Value (V) → ข้อมูลจริงที่ถูกใช้ <br>
 ![output](https://github.com/user-attachments/assets/acbf19e1-a8d2-4b19-8b76-84ec563ca66d)
 **Picture 5.** แผนภาพการทำงานของ Self-Attention <br>
 
+สุดท้ายของบทนี้ อยากให้พอผ่านตาคำศัพท์ สำหรับคนใหม่ ๆ ที่เพิ่งหัดเล่น ต่อไปเวลาเราใช้ งาน ComfyUI หรือ ต่อ Nodes เราจะได้เข้าใจมากขึ้นและไม่ตกใจ <br>
+*** สรุป คำศัพท์ บทนี้ ***
+1. CLIP
+2. Transfomer
+3. Latent
+4. vector
+5. matric
+6. Tensor
+7. Encoding
+8. Decoding
+9. CLIP vision
+10. Attention, Query (Q), Key (K), Value (V)
+11. Embeding
+12. Token
+13. ViT-L/14 , CLIP-L, T5-XXL model
+14. Pixel
+15. RGB
+
+ใครงง ตรงไหน แปะถามคุยกันได้ครับ FB ผมอยู่หน้าโปรไฟล์
+
 คำเตือนผู้เขียน ไม่ได้เรียนหรือมีความรู้ด้านนี้โดยตรง โปรอ้างอิงไปที่งานวิจัยเพือความถูกต้อง  <br>
 ติดตาม ต่อ ข้อ 5.2 เรื่อง U-Net
 
