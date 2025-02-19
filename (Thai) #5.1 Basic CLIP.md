@@ -218,3 +218,10 @@ Value (V) → ข้อมูลจริงที่ถูกใช้ <br>
 คำเตือนผู้เขียน ไม่ได้เรียนหรือมีความรู้ด้านนี้โดยตรง โปรอ้างอิงไปที่งานวิจัยเพือความถูกต้อง  <br>
 ติดตาม ต่อ ข้อ 5.2 เรื่อง U-Net
 
+### References
+1. https://arxiv.org/pdf/2103.00020
+2. https://arxiv.org/abs/1706.03762
+3. https://arxiv.org/abs/2112.10752
+4. https://arxiv.org/abs/2010.1192
+5. https://huggingface.co/openai/clip-vit-large-patch14
+
