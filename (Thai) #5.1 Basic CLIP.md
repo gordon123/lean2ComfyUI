@@ -10,9 +10,14 @@
 อย่างที่บอก Stable diffusion มีองค์ประกอบหลัก ๆ  3 โมเดล 
 
 1. CLIP - เป็นเหมือนตัวจับคู่ ภาพกลับข้อความ โดยใช้เครื่องมือ ที่เรียกว่า การ Transformer (แปลงให้เป็นตัวเลข ในรูป Vecter, matric, Tensors, Flat number) ถ้าเป็นรูป เรียกว่า Vision Transformer (ViT) ถ้าเป็น ตัวอักษรเรียกว่า  Text transformer
-![alt text](image-8.png)
-2. U-NET - คือการ denoise รออ่านข้อ 5.2
-3. VAE - ตัวเข้ารหัส เรียกเท่ ๆ ว่า Encode จาก Pixel (เช่น รูปภาพ 512 x 512 x 3 RGB color ) เป็น Latent (64 x 64 x 4 channels) และตัวถอดรหัส แปลง Latent มาเป็น Pixel เพื่อได้รูปภาพ - รออ่านข้อ 5.3
+![example vector to tensor](image-8.png) <br>
+**Picture 2.** Example vector to Tensors <br>
+
+![image](https://github.com/user-attachments/assets/c7ed0400-06a6-4d71-ad75-a7d00a50d3b0)
+**Picture 3.** ตัวอย่าง เวคเตอร์ และ Tensor ในรูปตัวเลข <br>
+
+3. U-NET - คือการ denoise รออ่านข้อ 5.2
+4. VAE - ตัวเข้ารหัส เรียกเท่ ๆ ว่า Encode จาก Pixel (เช่น รูปภาพ 512 x 512 x 3 RGB color ) เป็น Latent (64 x 64 x 4 channels) และตัวถอดรหัส แปลง Latent มาเป็น Pixel เพื่อได้รูปภาพ - รออ่านข้อ 5.3
 
 
 ## 5.1 การทำงานของ CLIP
