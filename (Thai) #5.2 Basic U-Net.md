@@ -54,7 +54,7 @@ U-Net แบ่งออกเป็น 3 ส่วนหลัก: <br>
 8️⃣ **ส่งไปที่ VAE Decoder เพื่อสร้างภาพ 512×512** แปลงจาก Laten space ที่เป็น vector มาเป็น Pixel space RGB <br>
 
 ---
-### ขั้นตอนหลักของ Encoder มี 3 กระบวนการ: ลดขนาด Latent space หรือ U ขาลงด้าน ซ่ายมือ <br>
+### ขั้นตอนหลักของ Encoder มี 3 กระบวนการ: ลดขนาด Latent space หรือ U ขาลงด้าน ซ้ายมือ <br>
 1️⃣ Convolution (ดึง Feature สำคัญ) <br>
 2️⃣ ReLU Activation (เพิ่มความไม่เป็นเชิงเส้นของโมเดล)  (Rectified Linear Unit) เป็นฟังก์ชัน Activation ที่ทำให้ค่าลบเป็นศูนย์ และ ช่วยให้โมเดลสามารถเรียนรู้ Feature ที่ซับซ้อนได้ดีขึ้น <br>
 ```
