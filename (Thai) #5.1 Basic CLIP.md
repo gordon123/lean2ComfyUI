@@ -20,8 +20,8 @@
 ![image](https://github.com/user-attachments/assets/c7ed0400-06a6-4d71-ad75-a7d00a50d3b0) <br>
 **Picture 3.** ตัวอย่าง เวคเตอร์ และ Tensor ในรูปตัวเลข <br>
 
-3. U-Net - คือการ denoise รออ่านข้อ 5.2
-4. VAE - ตัวเข้ารหัส เรียกเท่ ๆ ว่า Encode จาก Pixel (เช่น รูปภาพ 512 x 512 x 3 RGB color ) เป็น Latent (64 x 64 x 4 channels) และตัวถอดรหัส แปลง Latent มาเป็น Pixel เพื่อได้รูปภาพ - รออ่านข้อ 5.3
+3. [U-Net - คือการ denoise รออ่านข้อ 5.2](https://github.com/gordon123/lean2ComfyUI/blob/main/(Thai)%20%235.2%20Basic%20U-Net.md)
+4. VAE - ตัวเข้ารหัส เรียกเท่ ๆ ว่า Encode จาก Pixel (เช่น รูปภาพ 512 x 512 x 3 RGB color ) เป็น Latent (64 x 64 x 4 channels) และตัวถอดรหัส แปลง Latent มาเป็น Pixel เพื่อได้รูปภาพ - [รออ่านข้อ 5.3](https://github.com/gordon123/lean2ComfyUI/blob/main/(Thai)%20%235.3%20Basic%20VAE.md)
 
 
 ## 5.1 การทำงานของ CLIP
