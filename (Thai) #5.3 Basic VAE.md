@@ -42,18 +42,17 @@ Input Image → Encoder → Latent Space → Decoder → Reconstructed Pixel Ima
 
 ϵ∼N(0,I) เป็น Noise ที่สุ่มขึ้นมา
 
-🔹 3️⃣ Decoding Phase (สร้างภาพใหม่)
-📌 แปลง Latent Vector กลับเป็นภาพใน Pixel Space
-✅ ใช้ Decoder (CNN Transposed) ในการ Upscale ข้อมูลกลับไปเป็นภาพ
-✅ ค่าที่ได้จาก Decoder คือ Reconstructed Image
+🔹 3️⃣ Decoding Phase (สร้างภาพใหม่) <br>
+📌 แปลง Latent Vector กลับเป็นภาพใน Pixel Space <br>
+✅ ใช้ Decoder (CNN Transposed) ในการ Upscale ข้อมูลกลับไปเป็นภาพ <br>
+✅ ค่าที่ได้จาก Decoder คือ Reconstructed Image <br>
 
-📜 4. สมการของ VAE
-📌 VAE ใช้ Loss Function พิเศษที่ประกอบด้วย 2 ส่วน:
+📜 4. สมการของ VAE <br>
+📌 VAE ใช้ Loss Function พิเศษที่ประกอบด้วย 2 ส่วน: <br>
 
 
-🔹 1️⃣ Reconstruction Loss → ใช้ตรวจสอบว่าภาพที่ได้จาก Decoder ใกล้เคียงกับ Input มากแค่ไหน
-🔹 2️⃣ KL Divergence Loss (Regularization Term) → บังคับให้ Latent Space มีการกระจายแบบปกติ
-
+🔹 1️⃣ Reconstruction Loss → ใช้ตรวจสอบว่าภาพที่ได้จาก Decoder ใกล้เคียงกับ Input มากแค่ไหน <br>
+🔹 2️⃣ KL Divergence Loss (Regularization Term) → บังคับให้ Latent Space มีการกระจายแบบปกติ <br>
 
 ​
  (q(z∣x)∣∣p(z))
