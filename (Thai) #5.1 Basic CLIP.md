@@ -13,7 +13,7 @@
 
 อย่างที่บอก Stable diffusion มีองค์ประกอบหลัก ๆ  3 โมเดล 
 
-1. CLIP - เป็นเหมือนตัวจับคู่ ภาพกับข้อความ โดยใช้เครื่องมือ ที่เรียกว่า การ Transformer (แปลงให้เป็นตัวเลข ในรูป Vector, matric, Tensors, Flat number) ถ้าเป็นรูป เรียกว่า Vision Transformer (ViT) ถ้าเป็น ตัวอักษรเรียกว่า  Text transformer
+1. Contrastive Language-Image Pretraining (CLIP) - เป็นเหมือนตัวจับคู่ ภาพกับข้อความ โดยใช้เครื่องมือ ที่เรียกว่า การ Transformer (แปลงให้เป็นตัวเลข ในรูป Vector, matric, Tensors, Flat number) ถ้าเป็นรูป เรียกว่า Vision Transformer (ViT) ถ้าเป็น ตัวอักษรเรียกว่า  Text transformer
 ![example vector to tensor](image-8.png) <br>
 **Picture 2.** Example vector to Tensors <br>
 
