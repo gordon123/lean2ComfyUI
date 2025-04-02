@@ -1,6 +1,6 @@
 
-[https://www.youtube.com/embed/KzARTPebgT4?si=oxJQBvJZLl87zNrm](https://youtu.be/KzARTPebgT4?si=aSVkrCmzXYSwDLUp)
 
+[![Watch the Playlist](https://img.youtube.com/vi/KvZRuwcZ3Is/0.jpg)](https://youtu.be/KzARTPebgT4?si=aSVkrCmzXYSwDLUp) <br>
 แปะลิ้ง <br>
 4xFaceUpSharpDAT <br>
 https://openmodeldb.info/models/4x-FaceUpSharpDAT <br>
