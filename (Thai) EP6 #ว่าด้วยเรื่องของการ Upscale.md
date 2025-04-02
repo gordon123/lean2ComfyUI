@@ -47,7 +47,10 @@ ex . https://drive.usercontent.google.com/open?id=1aJLyM9xPSJErmpTAeXypXO7XisfSs
 
 4. and delete &authuser=0 at the end
 
-5. download with command gdown https://drive.google.com/uc?id=1aJLyM9xPSJErmpTAeXypXO7XisfSs2vQ
+5. download with command
+```
+gdown https://drive.google.com/uc?id=1aJLyM9xPSJErmpTAeXypXO7XisfSs2vQ
+```
 enter to download
 
 ```
