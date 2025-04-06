@@ -67,5 +67,9 @@ FLUX.1-Fill-dev FP8 https://civitai.com/models/969431/flux-fill-fp8<br>
 FLUX.1-Fill-dev-gguf https://huggingface.co/YarvixPA/FLUX.1-Fill-dev-gguf/tree/main<br>
 
 ---
-CLIP <br>
+CLIP-L <br>
 https://huggingface.co/zer0int/CLIP-GmP-ViT-L-14/tree/main<br>
+
+T5 <br>
+https://huggingface.co/comfyanonymous/flux_text_encoders/tree/main <br>
+
