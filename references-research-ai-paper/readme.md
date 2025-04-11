@@ -19,6 +19,7 @@ Sound/Voice clone areana ! https://huggingface.co/spaces/TTS-AGI/TTS-Arena
 | PyThaiNLP: Thai Natural Language Processing in Python   | TBA    |https://arxiv.org/pdf/2312.04649|
 | PyThaiNLP open source   | TBA    |https://pythainlp.org/thai-tutorials/index.html|
 | StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion  | TBA    |https://arxiv.org/abs/2306.07691|
+| MegaTTS 3: Zero-Shot Speech Synthesis  | ***** Quality great and light weight    |[https://arxiv.org/abs/2306.07691](https://arxiv.org/pdf/2502.18924), https://github.com/bytedance/MegaTTS3|
 
 ## 🔗Reference for Video generative AI
 
