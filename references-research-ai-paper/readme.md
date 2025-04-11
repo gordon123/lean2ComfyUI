@@ -1,6 +1,7 @@
 ### ห้องสมุดส่วนตัวเล็ก ๆ เกี่ยวกับ งานวิจัยด้าน AI ที่น่าสนใจ
 
 https://paperswithcode.com/
+https://aiforthai.in.th/service_bn.php
 
 ## 🔗References for Text to image generative AI
 
