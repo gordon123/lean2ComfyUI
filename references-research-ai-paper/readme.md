@@ -1,5 +1,7 @@
 ### ห้องสมุดส่วนตัวเล็ก ๆ เกี่ยวกับ งานวิจัยด้าน AI ที่น่าสนใจ
 
+https://paperswithcode.com/
+
 ## 🔗References for Text to image generative AI
 
 Image generative Areana! https://huggingface.co/spaces/ArtificialAnalysis/Text-to-Image-Leaderboard
