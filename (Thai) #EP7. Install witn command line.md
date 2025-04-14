@@ -22,7 +22,7 @@ source myvenv/bin/activate
 
 6. Install pytorch <br>
 ใครใช้ การ์ดจอ RTX 30xx 40xx ก๊อบโค้ดนี้  <br>
- PS: เลือก Template เช่น runpod/pytorch:2.1.0-py3.10-cuda11.8.0-devel-ubuntu ...  <br>
+ PS: เลือก Template เช่น runpod/pytorch:2.1.0-py3.10-cuda11.8.0-devel-ubuntu ... สำหรับคนเลือก การ์ด 30xx เช็คเกิด มีการ error อาจจะเช็คหน้า ComfyUi compatible version <br>
 ```
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu126
 ```
