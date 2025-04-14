@@ -21,13 +21,14 @@ source myvenv/bin/activate
 ![activate venv](<Screenshot 2025-04-08 at 18.03.17.png>) <br>
 
 6. Install pytorch <br>
-ใครใช้ การ์ดจอ RTX 30xx 40xx ก๊อบโค้ดนี้
+ใครใช้ การ์ดจอ RTX 30xx 40xx ก๊อบโค้ดนี้  <br>
+ PS: เลือก Template เช่น runpod/pytorch:2.1.0-py3.10-cuda11.8.0-devel-ubuntu ...  <br>
 ```
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu126
 ```
 
 ใครใช้ การ์ดจอ RTX 50xx ก๊อบโค้ดนี้ (Nightly version)  <br>
-
+PS: เลือก Runpod template version runpod/pytorch:2.8.0-py3.11-cuda12.8.1-cudnn-devel-ubuntu22.04 .... <br>
 ```
 pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
 ```
