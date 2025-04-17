@@ -18,26 +18,20 @@ Feel free to leave a comment if you find it useful!<br>
 //<br><br>
 Hola,<br>
 
-¡Aquí está mi vlog personal para jugar con ComfyUI!<br>
-¡No dudes en dejar un comentario si te resulta útil!<br>
-//<br><br>
-你好，<br>
-
-這是我使用 ComfyUI 的個人視訊部落格！<br>
-如果您發現有用，請隨意發表評論！<br>
-//<br><br>
-안녕하세요,<br>
-
-ComfyUI를 가지고 놀기 위한 제 개인 vlog입니다!<br>
-유용하다고 생각되면 댓글을 남겨주세요!<br>
-//<br><br>
-こんにちは、<br>
-
-これは ComfyUI をいじってみた私の個人的な Vlog です!<br>
-役に立ったと思ったら、ぜひコメントを残してください!<br>
-//<br><br>
-Hej,<br>
-
-Här är min personliga vlogg att leka med ComfyUI!<br>
-Lämna gärna en kommentar om du tycker att det är användbart!<br>
-//<br>
+---
+Custom node list ! recommended 
+1. ComfyUI-Manager
+2. comfyui_controlnet_aux
+3. ComfyUI Impact Pack
+4. rgthree-comfy
+5. ComfyUI-Easy-Use
+6. ComfyUI-KJNodes
+7. ComfyUI-Florence2
+8. comfyui-portrait-master
+9.  cg-use-everywhere
+10. Comfyui_TTP_Toolset
+11. comfyui-ollama
+12. Flux-Prompt-Generator
+13. ControlAltAI_Nodes
+14. KayTool
+15. ComfyUI-WildPromptor
