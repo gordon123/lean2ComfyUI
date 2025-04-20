@@ -8,7 +8,6 @@ git clone https://github.com/comfyanonymous/ComfyUI.git
 ![git clone Comfyui](<Screenshot 2025-04-08 at 17.41.24.png>) <br><br>
 4. สร้าง Virtual environment ด้วยคำสั่ง 
 ```
-python -m venv (ชื่อโฟลเด้อ เช่น myvenv)
 python -m venv myvenv
 ```
 สังเกตเมนูซ้ายมือจะมี โฟลเด้อ myvenv
