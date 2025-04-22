@@ -15,8 +15,13 @@ Image generative Areana! https://huggingface.co/spaces/ArtificialAnalysis/Text-t
 | Adding Conditional Control to Text-to-Image Diffusion Models    | การทำงาน Control net    |[Controlnet Paper](https://arxiv.org/pdf/2302.05543)|
 
 ## 🔗References for Sound/Voice/Musics generative AI 
-
-Sound/Voice clone areana ! https://huggingface.co/spaces/TTS-AGI/TTS-Arena
+แหล่ง data set สำหรับเสียง
+Sound/Voice clone areana ! https://huggingface.co/spaces/TTS-AGI/TTS-Arena <br>
+https://airesearch.in.th/releases/speech-emotion-dataset/  <br>
+https://sites.ualberta.ca/~aacl2009/PDFs/WeinbergerKunath2009AACL.pdf  <br>
+https://inference.readthedocs.io/en/latest/models/model_abilities/audio.html#audio  <br> 
+https://keithito.com/LJ-Speech-Dataset/   <br> 
+https://huggingface.co/datasets/CMKL/Porjai-Thai-voice-dataset-central   <br> 
 
 | หัวข้อ    | คำอธิบายย่อๆ |  Link |
 | -------- | ------- | ------- |
