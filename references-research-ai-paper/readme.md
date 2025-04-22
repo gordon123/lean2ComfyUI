@@ -23,6 +23,7 @@ Sound/Voice clone areana ! https://huggingface.co/spaces/TTS-AGI/TTS-Arena
 | PyThaiNLP open source   | TBA    |https://pythainlp.org/thai-tutorials/index.html|
 | StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion  | TBA    |https://arxiv.org/abs/2306.07691|
 | MegaTTS 3: Zero-Shot Speech Synthesis  | ***** Quality great and light weight    |[https://arxiv.org/abs/2306.07691](https://arxiv.org/pdf/2502.18924), https://github.com/bytedance/MegaTTS3|
+| AudioX: Diffusion Transformer for Anything-to-Audio Generations  | เพิ่ม sound effect ให้ video    |[Audio-X](https://arxiv.org/pdf/2503.10522) [Project page](https://zeyuet.github.io/AudioX/)|
 
 ## 🔗Reference for Video generative AI
 
