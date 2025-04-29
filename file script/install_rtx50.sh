@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Clone ComfyUI
+git clone https://github.com/comfyanonymous/ComfyUI.git
+cd ComfyUI || exit
+
+# สร้าง Virtual Environment
+python3 -m venv myvenv
+source myvenv/bin/activate
+
+# ลง PyTorch nightly version (CUDA 12.8)
+pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+
+# ติดตั้ง requirements ของ ComfyUI
+pip install -r requirements.txt
+
+# เข้าไปใน custom_nodes
+cd custom_nodes || exit
+
+# Clone ComfyUI Manager
+git clone https://github.com/Comfy-Org/ComfyUI-Manager.git
+
+# ออกมานอก custom_nodes
+cd ..
+
+echo "run comfyui > python main.py --listen"
