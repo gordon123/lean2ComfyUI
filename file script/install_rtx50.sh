@@ -5,7 +5,7 @@ git clone https://github.com/comfyanonymous/ComfyUI.git
 cd ComfyUI || exit
 
 # สร้าง Virtual Environment
-python3 -m venv myvenv
+python -m venv myvenv
 source myvenv/bin/activate
 
 # ลง PyTorch nightly version (CUDA 12.8)
