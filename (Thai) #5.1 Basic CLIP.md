@@ -222,6 +222,8 @@ Value (V) → ข้อมูลจริงที่ถูกใช้ <br>
 ติดตาม ต่อ [ข้อ 5.2 เรื่อง U-Net](https://github.com/gordon123/lean2ComfyUI/blob/main/(Thai)%20%235.2%20Basic%20U-Net.md)
 
 ### References
+https://tryolabs.com/blog/2022/08/31/from-dalle-to-stable-diffusion
+
 1. https://arxiv.org/pdf/2103.00020
 2. https://arxiv.org/abs/1706.03762
 3. https://arxiv.org/abs/2112.10752
