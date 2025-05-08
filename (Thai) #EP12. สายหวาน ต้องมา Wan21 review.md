@@ -85,7 +85,7 @@ GGUF
 # Todo-List ราย การที่จะสอน ใน Wan The series (To be continue)
 
 ### T2V = Text to video
-✅ อัดคลิปแล้ว  ❌ ตัดต่อเสร็จแล้ว
+✅ อัดคลิปแล้ว  ✅ ตัดต่อเสร็จแล้ว
 ### i2V = Image to video
 ✅ อัดคลิปแล้ว  ❌ ตัดต่อเสร็จแล้ว
 ## Wan2.1 Fun
