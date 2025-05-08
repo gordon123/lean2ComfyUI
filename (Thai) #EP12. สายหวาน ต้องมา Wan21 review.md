@@ -34,7 +34,7 @@ python main.py --listen
 1.3B parameter เร็วคุณภาพ น้อย เอาไว้ทดสอบ
 14B Parameter ช้ามากกกกกกกก เอาไว้ Final project
 
-### สูตรคำนวณ FPS & Videl Length
+### สูตรคำนวณ FPS & Video Length
 ตัวอย่าง 
 เช่น 16 FPS  สำหรับ คลิป 5 วินาที
 
