@@ -1,0 +1,1768 @@
+{
+  "id": "430afb33-7f16-46ee-a7e7-a9f7d05788d0",
+  "revision": 0,
+  "last_node_id": 68,
+  "last_link_id": 71,
+  "nodes": [
+    {
+      "id": 32,
+      "type": "MegaTTS_VoiceMaker",
+      "pos": [
+        488.4814453125,
+        -382.8765869140625
+      ],
+      "size": [
+        400,
+        204
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 15,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "audio_in",
+          "type": "AUDIO",
+          "link": 36
+        }
+      ],
+      "outputs": [
+        {
+          "name": "audio_out",
+          "type": "AUDIO",
+          "links": [
+            37
+          ]
+        },
+        {
+          "name": "voice_path",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-MegaTTS",
+        "ver": "4544c6c7ae3a2817b1904a91c797df17bf565ffa",
+        "Node name for S&R": "MegaTTS_VoiceMaker",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "my_voice",
+        "",
+        true,
+        true,
+        10
+      ]
+    },
+    {
+      "id": 34,
+      "type": "SaveAudio",
+      "pos": [
+        505.8443603515625,
+        -334.8623046875
+      ],
+      "size": [
+        315,
+        112
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 23,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 37
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.30",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "TTS3"
+      ]
+    },
+    {
+      "id": 33,
+      "type": "LoadAudio",
+      "pos": [
+        137.3036346435547,
+        -385.43267822265625
+      ],
+      "size": [
+        315,
+        136
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            36
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.30",
+        "Node name for S&R": "LoadAudio",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "00008.wav",
+        null,
+        null
+      ]
+    },
+    {
+      "id": 18,
+      "type": "ImageOnlyCheckpointLoader",
+      "pos": [
+        1107.6922607421875,
+        -126.43071746826172
+      ],
+      "size": [
+        369.6000061035156,
+        98
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            21
+          ]
+        },
+        {
+          "name": "CLIP_VISION",
+          "type": "CLIP_VISION",
+          "links": [
+            22
+          ]
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            23
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.30",
+        "Node name for S&R": "ImageOnlyCheckpointLoader",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "svd_xt_1_1.safetensors"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "SONICTLoader",
+      "pos": [
+        1529.627197265625,
+        -119.05223846435547
+      ],
+      "size": [
+        315,
+        150
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 21
+        }
+      ],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "MODEL_SONIC",
+          "links": [
+            24
+          ]
+        },
+        {
+          "name": "dtype",
+          "type": "DTYPE",
+          "links": [
+            30
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI_Sonic",
+        "ver": "6595df02e72406fe23baebc12ac2088832d7ff9b",
+        "Node name for S&R": "SONICTLoader",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "unet-001.pth",
+        1,
+        true,
+        "fp16"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "LoadImage",
+      "pos": [
+        1101.85693359375,
+        320.77520751953125
+      ],
+      "size": [
+        421.58514404296875,
+        524.241455078125
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            28
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.30",
+        "Node name for S&R": "LoadImage",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "leonnado.jpg",
+        "image"
+      ]
+    },
+    {
+      "id": 55,
+      "type": "Display Any (rgthree)",
+      "pos": [
+        -644.7421264648438,
+        1395.012451171875
+      ],
+      "size": [
+        210,
+        88
+      ],
+      "flags": {},
+      "order": 19,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 61
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "1.0.0",
+        "Node name for S&R": "Display Any (rgthree)",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 56,
+      "type": "Display Any (rgthree)",
+      "pos": [
+        -404.098388671875,
+        1395.420654296875
+      ],
+      "size": [
+        210,
+        88
+      ],
+      "flags": {},
+      "order": 20,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 62
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "1.0.0",
+        "Node name for S&R": "Display Any (rgthree)",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 58,
+      "type": "VrchAudioSaverNode",
+      "pos": [
+        693.6962890625,
+        1286.4093017578125
+      ],
+      "size": [
+        341.2124938964844,
+        184
+      ],
+      "flags": {},
+      "order": 30,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 65
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfyui-web-viewer",
+        "ver": "1.0.32",
+        "Node name for S&R": "VrchAudioSaverNode",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "web_viewer_audio",
+        "web_viewer",
+        "wav",
+        true
+      ]
+    },
+    {
+      "id": 59,
+      "type": "Display Any (rgthree)",
+      "pos": [
+        692.5289306640625,
+        1155.809326171875
+      ],
+      "size": [
+        210,
+        88
+      ],
+      "flags": {},
+      "order": 29,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 66
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "1.0.0",
+        "Node name for S&R": "Display Any (rgthree)",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 54,
+      "type": "GetSubtitleByIndex",
+      "pos": [
+        -716.8189697265625,
+        1144.73828125
+      ],
+      "size": [
+        270,
+        162
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "subtitle_text",
+          "type": "STRING",
+          "links": [
+            63,
+            67
+          ]
+        },
+        {
+          "name": "timestamp",
+          "type": "STRING",
+          "links": [
+            59
+          ]
+        },
+        {
+          "name": "all_subtitles",
+          "type": "STRING",
+          "links": [
+            61
+          ]
+        },
+        {
+          "name": "all_timestamps",
+          "type": "STRING",
+          "links": [
+            62
+          ]
+        },
+        {
+          "name": "srt_file",
+          "type": "STRING",
+          "links": [
+            60
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "gordon123/ComfyUI_srt2speech",
+        "ver": "3a25daf2a505cf0565b261bce3a6a7dc0d8d5a4d",
+        "Node name for S&R": "GetSubtitleByIndex",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "test-5min.srt",
+        0
+      ]
+    },
+    {
+      "id": 53,
+      "type": "SaveWavNode",
+      "pos": [
+        288.3221740722656,
+        1175.939697265625
+      ],
+      "size": [
+        270,
+        122
+      ],
+      "flags": {},
+      "order": 26,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 64
+        },
+        {
+          "name": "timestamp",
+          "type": "STRING",
+          "widget": {
+            "name": "timestamp"
+          },
+          "link": 59
+        },
+        {
+          "name": "srt_file",
+          "type": "STRING",
+          "widget": {
+            "name": "srt_file"
+          },
+          "link": 60
+        }
+      ],
+      "outputs": [
+        {
+          "name": "saved_path",
+          "type": "STRING",
+          "links": [
+            66
+          ]
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            65
+          ]
+        },
+        {
+          "name": "duration_sec",
+          "type": "FLOAT",
+          "links": [
+            68
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "gordon123/ComfyUI_srt2speech",
+        "ver": "3a25daf2a505cf0565b261bce3a6a7dc0d8d5a4d",
+        "Node name for S&R": "SaveWavNode",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 60,
+      "type": "Reroute",
+      "pos": [
+        -332.0549621582031,
+        548.4402465820312
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 67
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": [
+            69
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false,
+        "widget_ue_connectable": {}
+      }
+    },
+    {
+      "id": 42,
+      "type": "Note",
+      "pos": [
+        1261.943359375,
+        -389.8153076171875
+      ],
+      "size": [
+        564.4055786132812,
+        103.0722885131836
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "download model \nhttps://huggingface.co/iimate/sonicunet-backup"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 37,
+      "type": "PrimitiveNode",
+      "pos": [
+        1621.149169921875,
+        515.4705200195312
+      ],
+      "size": [
+        262.388427734375,
+        82
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "widget": {
+            "name": "frame_rate"
+          },
+          "links": [
+            41,
+            42
+          ]
+        }
+      ],
+      "properties": {
+        "Run widget replace on values": false,
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        25,
+        "fixed"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "SONICSampler",
+      "pos": [
+        1555.8714599609375,
+        119.66763305664062
+      ],
+      "size": [
+        315,
+        174
+      ],
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL_SONIC",
+          "link": 24
+        },
+        {
+          "name": "data_dict",
+          "type": "SONIC_PREDATA",
+          "link": 25
+        },
+        {
+          "name": "fps",
+          "type": "FLOAT",
+          "widget": {
+            "name": "fps"
+          },
+          "link": 42
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            26
+          ]
+        },
+        {
+          "name": "fps",
+          "type": "FLOAT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI_Sonic",
+        "ver": "6595df02e72406fe23baebc12ac2088832d7ff9b",
+        "Node name for S&R": "SONICSampler",
+        "widget_ue_connectable": {
+          "fps": true
+        }
+      },
+      "widgets_values": [
+        1086670250,
+        "randomize",
+        25,
+        0.5,
+        25
+      ]
+    },
+    {
+      "id": 61,
+      "type": "Reroute",
+      "pos": [
+        1458.421142578125,
+        844.7823486328125
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 68
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "FLOAT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false,
+        "widget_ue_connectable": {}
+      }
+    },
+    {
+      "id": 41,
+      "type": "Note",
+      "pos": [
+        1083.50146484375,
+        898.1555786132812
+      ],
+      "size": [
+        217.25621032714844,
+        100.80872344970703
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "512\n448\n384\n320\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 51,
+      "type": "LoadAudio",
+      "pos": [
+        1104.90185546875,
+        213.51422119140625
+      ],
+      "size": [
+        270,
+        136
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.32",
+        "Node name for S&R": "LoadAudio",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "test before.wav",
+        null,
+        null
+      ]
+    },
+    {
+      "id": 20,
+      "type": "SONIC_PreData",
+      "pos": [
+        1599.974365234375,
+        639.9239501953125
+      ],
+      "size": [
+        407.0205383300781,
+        186
+      ],
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip_vision",
+          "type": "CLIP_VISION",
+          "link": 22
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 23
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 70
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 28
+        },
+        {
+          "name": "weight_dtype",
+          "type": "DTYPE",
+          "link": 30
+        }
+      ],
+      "outputs": [
+        {
+          "name": "data_dict",
+          "type": "SONIC_PREDATA",
+          "links": [
+            25
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI_Sonic",
+        "ver": "6595df02e72406fe23baebc12ac2088832d7ff9b",
+        "Node name for S&R": "SONIC_PreData",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        320,
+        1000,
+        0.5
+      ]
+    },
+    {
+      "id": 22,
+      "type": "VHS_VideoCombine",
+      "pos": [
+        2038.8785400390625,
+        -75.66864013671875
+      ],
+      "size": [
+        537.3164672851562,
+        865.3164672851562
+      ],
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 26
+        },
+        {
+          "name": "audio",
+          "shape": 7,
+          "type": "AUDIO",
+          "link": 71
+        },
+        {
+          "name": "meta_batch",
+          "shape": 7,
+          "type": "VHS_BatchManager",
+          "link": null
+        },
+        {
+          "name": "vae",
+          "shape": 7,
+          "type": "VAE",
+          "link": null
+        },
+        {
+          "name": "frame_rate",
+          "type": "FLOAT",
+          "widget": {
+            "name": "frame_rate"
+          },
+          "link": 41
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Filenames",
+          "type": "VHS_FILENAMES",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-videohelpersuite",
+        "ver": "a7ce59e381934733bfae03b1be029756d6ce936d",
+        "Node name for S&R": "VHS_VideoCombine",
+        "aux_id": "Kosinkadink/ComfyUI-VideoHelperSuite",
+        "widget_ue_connectable": {
+          "frame_rate": true
+        }
+      },
+      "widgets_values": {
+        "frame_rate": 25,
+        "loop_count": 0,
+        "filename_prefix": "sonic_lipsync",
+        "format": "video/h264-mp4",
+        "pix_fmt": "yuv420p",
+        "crf": 19,
+        "save_metadata": true,
+        "trim_to_audio": false,
+        "pingpong": false,
+        "save_output": true,
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "filename": "sonic_lipsync_00012-audio.mp4",
+            "subfolder": "",
+            "type": "output",
+            "format": "video/h264-mp4",
+            "frame_rate": 25,
+            "workflow": "sonic_lipsync_00012.png",
+            "fullpath": "/workspace/ComfyUI/output/sonic_lipsync_00012-audio.mp4"
+          }
+        }
+      }
+    },
+    {
+      "id": 62,
+      "type": "Reroute",
+      "pos": [
+        -225.29615783691406,
+        7.240553379058838
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 69
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false,
+        "widget_ue_connectable": {}
+      }
+    },
+    {
+      "id": 43,
+      "type": "VrchAudioSaverNode",
+      "pos": [
+        726.6637573242188,
+        -122.18436431884766
+      ],
+      "size": [
+        270,
+        184
+      ],
+      "flags": {},
+      "order": 21,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 44
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfyui-web-viewer",
+        "ver": "1.0.32",
+        "Node name for S&R": "VrchAudioSaverNode",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "MegaTTS_Eng",
+        "web_viewer",
+        "wav",
+        true
+      ]
+    },
+    {
+      "id": 57,
+      "type": "Display Any (rgthree)",
+      "pos": [
+        -389.4210510253906,
+        1193.99365234375
+      ],
+      "size": [
+        210,
+        88
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 63
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "1.0.0",
+        "Node name for S&R": "Display Any (rgthree)",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 35,
+      "type": "MegaTTS3S",
+      "pos": [
+        140.12503051757812,
+        -121.50599670410156
+      ],
+      "size": [
+        545.5345458984375,
+        363.9655456542969
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "generated_audio",
+          "type": "AUDIO",
+          "links": [
+            44
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-MegaTTS",
+        "ver": "4544c6c7ae3a2817b1904a91c797df17bf565ffa",
+        "Node name for S&R": "MegaTTS3S",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "\nWant to turn sound into pure magic?\nWant to bring your imagination to life with stunning visuals?\nWelcome to...\niimate twenty four – the channel that takes you deep into the multiverse of A I with Comfy U I!\n\nThis is your creative dojo, whether you're an artist, a dev, or just a curious soul:\n\nLearn how to master Comfy U I with easy-to-follow tutorials\n\nDiscover techniques to craft epic audio and mesmerizing visuals\n\nGet hands-on workflows, custom nodes, and powerful ideas to boost your projects \n\nDon’t just stand on the sidelines—\nHit that subscribe button for iimate twenty four  now!\nAnd turn on the bell so you never miss a drop of creative power\n\nBecause the new world of A I made sound and images...\nis waiting for you to shape it!",
+        "en",
+        "iimate24.wav"
+      ]
+    },
+    {
+      "id": 66,
+      "type": "LoadAudio",
+      "pos": [
+        -167.5542755126953,
+        -57.00471115112305
+      ],
+      "size": [
+        270,
+        136
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.32",
+        "Node name for S&R": "LoadAudio",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "iimate24.wav",
+        null,
+        null
+      ]
+    },
+    {
+      "id": 46,
+      "type": "SaveAudioAndText",
+      "pos": [
+        200.13597106933594,
+        718.4435424804688
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 27,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 47
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "link": 48
+        }
+      ],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            49
+          ]
+        },
+        {
+          "name": "filename",
+          "type": "STRING",
+          "links": [
+            50
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "gordon123/ComfyUI-F5-TTS-TH",
+        "ver": "8685fd829966212367645e71166ef0a1a0b4e1bb",
+        "Node name for S&R": "SaveAudioAndText",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "",
+        "F5_TTS_Thai",
+        "wav"
+      ]
+    },
+    {
+      "id": 48,
+      "type": "LoadAudio",
+      "pos": [
+        -588.2998046875,
+        403.01763916015625
+      ],
+      "size": [
+        270,
+        136
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            51
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.32",
+        "Node name for S&R": "LoadAudio",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "mono_24000.wav",
+        null,
+        null
+      ]
+    },
+    {
+      "id": 47,
+      "type": "VrchAudioSaverNode",
+      "pos": [
+        205.0865020751953,
+        481.3929138183594
+      ],
+      "size": [
+        366.45635986328125,
+        184
+      ],
+      "flags": {},
+      "order": 32,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 49
+        },
+        {
+          "name": "filename",
+          "type": "STRING",
+          "widget": {
+            "name": "filename"
+          },
+          "link": 50
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfyui-web-viewer",
+        "ver": "1.0.32",
+        "Node name for S&R": "VrchAudioSaverNode",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "web_viewer_audio",
+        "web_viewer",
+        "wav",
+        true
+      ]
+    },
+    {
+      "id": 29,
+      "type": "Fast Groups Muter (rgthree)",
+      "pos": [
+        720.6201171875,
+        -428.5528564453125
+      ],
+      "size": [
+        510.850341796875,
+        178
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "matchColors": "",
+        "matchTitle": "",
+        "showNav": true,
+        "sort": "position",
+        "customSortAlphabet": "",
+        "toggleRestriction": "default",
+        "widget_ue_connectable": {}
+      },
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 64,
+      "type": "VHS_LoadAudio",
+      "pos": [
+        1100.2113037109375,
+        48.00022506713867
+      ],
+      "size": [
+        232.8544921875,
+        106
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            70,
+            71
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-videohelpersuite",
+        "ver": "1.6.1",
+        "Node name for S&R": "VHS_LoadAudio",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": {
+        "audio_file": "output/web_viewer/F5_TTS_Thai_007.wav.wav",
+        "seek_seconds": 0,
+        "duration": 0
+      }
+    },
+    {
+      "id": 67,
+      "type": "Note",
+      "pos": [
+        2652.61962890625,
+        -4.096601486206055
+      ],
+      "size": [
+        445.08111572265625,
+        356.53094482421875
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "\nWant to turn sound into pure magic?\nWant to bring your imagination to life with stunning visuals?\nWelcome to...\niimate twenty four – the channel that takes you deep into the multiverse of A I with Comfy U I!\n\nThis is your creative dojo, whether you're an artist, a dev, or just a curious soul:\n\nLearn how to master Comfy U I with easy-to-follow tutorials\n\nDiscover techniques to craft epic audio and mesmerizing visuals\n\nGet hands-on workflows, custom nodes, and powerful ideas to boost your projects \n\nDon’t just stand on the sidelines—\nHit that subscribe button for iimate twenty four  now!\nAnd turn on the bell so you never miss a drop of creative power\n\nis waiting for you to shape it!"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 45,
+      "type": "F5TTS_Advance",
+      "pos": [
+        -234.86489868164062,
+        475.4507751464844
+      ],
+      "size": [
+        415.5956726074219,
+        585.3033447265625
+      ],
+      "flags": {},
+      "order": 22,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "sample_audio",
+          "type": "AUDIO",
+          "link": 51
+        },
+        {
+          "name": "remove_silence",
+          "shape": 7,
+          "type": "BOOL",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            47,
+            64
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            48
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "gordon123/ComfyUI-F5-TTS-TH",
+        "ver": "8685fd829966212367645e71166ef0a1a0b4e1bb",
+        "Node name for S&R": "F5TTS_Advance",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "สวัสดีนะครับ ก็จะมาทดสอบเสียงภาษาไทยอีกแล้ว ลองดูกันว่าจะได้ไหม",
+        "อยากปั้นเสียงให้เป็นมนต์สะกด?\nอยากเสกภาพจากจินตนาการให้โลดแล่นบนจอ?\nยินดีต้อนรับเข้าสู่…\nช่องไอเมธยี่สิบสี่ – ช่องที่จะพาเพื่อนเพื่อน ตะลุยไปกับ คอมฟี่ ยู-ไอ.\n\nที่นี่คือโรงเรียนเวทมนตร์สำหรับสาย ครีเอเตอร์ สายเด๊ฟและสายติ๊สต์.\n\nสอนใช้งาน คอมฟี่ ยู-ไอ แบบเข้าใจง่าย.\n\nอย่ามัวแต่ ยืนดู.\nกดติดตาม ช่องไอเมธยี่สิบสี่ ตอนนี้เลย!\n แล้วกดกระดิ่งด้วย จะได้ไม่พลาดทุกเทคนิคเด็ดดวง.\n\nเพราะโลกใบใหม่ของเสียงและภาพ…\nรอให้เธอมาเสกมันอยู่.",
+        "model_500000.pt",
+        1317,
+        "randomize",
+        1,
+        0.15,
+        32,
+        2,
+        -1,
+        0,
+        250
+      ]
+    },
+    {
+      "id": 68,
+      "type": "Note",
+      "pos": [
+        2664.949462890625,
+        414.72857666015625
+      ],
+      "size": [
+        445.08111572265625,
+        356.53094482421875
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        " อยากปั้นเสียงให้เป็นมนต์สะกด?\nอยากเสกภาพจากจินตนาการให้โลดแล่นบนจอ?\nยินดีต้อนรับเข้าสู่…\nช่องไอเมธยี่สิบสี่ – ช่องที่จะพาเพื่อนเพื่อน ตะลุยไปกับ คอมฟี่ ยู-ไอ.\n\nที่นี่คือโรงเรียนเวทมนตร์สำหรับสาย ครีเอเตอร์ สายเด๊ฟและสายติ๊สต์.\n\nสอนใช้งาน คอมฟี่ ยู-ไอ แบบเข้าใจง่าย.\n\nอย่ามัวแต่ ยืนดู.\nกดติดตาม ช่องไอเมธยี่สิบสี่ ตอนนี้เลย!\n แล้วกดกระดิ่งด้วย จะได้ไม่พลาดทุกเทคนิคเด็ดดวง.\n\nเพราะโลกใบใหม่ของเสียงและภาพ…\nรอให้เธอมาเสกมันอยู่."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    }
+  ],
+  "links": [
+    [
+      21,
+      18,
+      0,
+      19,
+      0,
+      "MODEL"
+    ],
+    [
+      22,
+      18,
+      1,
+      20,
+      0,
+      "CLIP_VISION"
+    ],
+    [
+      23,
+      18,
+      2,
+      20,
+      1,
+      "VAE"
+    ],
+    [
+      24,
+      19,
+      0,
+      21,
+      0,
+      "MODEL_SONIC"
+    ],
+    [
+      25,
+      20,
+      0,
+      21,
+      1,
+      "SONIC_PREDATA"
+    ],
+    [
+      26,
+      21,
+      0,
+      22,
+      0,
+      "IMAGE"
+    ],
+    [
+      28,
+      24,
+      0,
+      20,
+      3,
+      "IMAGE"
+    ],
+    [
+      30,
+      19,
+      1,
+      20,
+      4,
+      "DTYPE"
+    ],
+    [
+      36,
+      33,
+      0,
+      32,
+      0,
+      "AUDIO"
+    ],
+    [
+      37,
+      32,
+      0,
+      34,
+      0,
+      "AUDIO"
+    ],
+    [
+      41,
+      37,
+      0,
+      22,
+      4,
+      "FLOAT"
+    ],
+    [
+      42,
+      37,
+      0,
+      21,
+      2,
+      "FLOAT"
+    ],
+    [
+      44,
+      35,
+      0,
+      43,
+      0,
+      "AUDIO"
+    ],
+    [
+      47,
+      45,
+      0,
+      46,
+      0,
+      "AUDIO"
+    ],
+    [
+      48,
+      45,
+      1,
+      46,
+      1,
+      "STRING"
+    ],
+    [
+      49,
+      46,
+      0,
+      47,
+      0,
+      "AUDIO"
+    ],
+    [
+      50,
+      46,
+      1,
+      47,
+      1,
+      "STRING"
+    ],
+    [
+      51,
+      48,
+      0,
+      45,
+      0,
+      "AUDIO"
+    ],
+    [
+      59,
+      54,
+      1,
+      53,
+      1,
+      "STRING"
+    ],
+    [
+      60,
+      54,
+      4,
+      53,
+      2,
+      "STRING"
+    ],
+    [
+      61,
+      54,
+      2,
+      55,
+      0,
+      "*"
+    ],
+    [
+      62,
+      54,
+      3,
+      56,
+      0,
+      "*"
+    ],
+    [
+      63,
+      54,
+      0,
+      57,
+      0,
+      "*"
+    ],
+    [
+      64,
+      45,
+      0,
+      53,
+      0,
+      "AUDIO"
+    ],
+    [
+      65,
+      53,
+      1,
+      58,
+      0,
+      "AUDIO"
+    ],
+    [
+      66,
+      53,
+      0,
+      59,
+      0,
+      "*"
+    ],
+    [
+      67,
+      54,
+      0,
+      60,
+      0,
+      "*"
+    ],
+    [
+      68,
+      53,
+      2,
+      61,
+      0,
+      "*"
+    ],
+    [
+      69,
+      60,
+      0,
+      62,
+      0,
+      "*"
+    ],
+    [
+      70,
+      64,
+      0,
+      20,
+      2,
+      "AUDIO"
+    ],
+    [
+      71,
+      64,
+      0,
+      22,
+      1,
+      "AUDIO"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 2,
+      "title": "2. Image to video Sonic lipsync ทำ ลิปซิ๊งค์ ปาก",
+      "bounding": [
+        1073.50146484375,
+        -200.03070068359375,
+        1512.69287109375,
+        1208.994873046875
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "Model downloader / use only once",
+      "bounding": [
+        127.3036880493164,
+        -459.0326843261719,
+        553.222900390625,
+        219.60000610351562
+      ],
+      "color": "#444",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 4,
+      "title": "1. Generate audio สร้างเสียง ภาษาอังกฤษ ด้วย Mega TTS3",
+      "bounding": [
+        131.20814514160156,
+        -210.75343322753906,
+        885.9208984375,
+        511.7424621582031
+      ],
+      "color": "#A88",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 5,
+      "title": "F5TTS-TH สร้างเสียงภาษาไทย",
+      "bounding": [
+        -594.3611450195312,
+        328.2454528808594,
+        1633.51025390625,
+        697.8196411132812
+      ],
+      "color": "#b58b2a",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 6,
+      "title": "subtitle to TTS",
+      "bounding": [
+        -726.8189697265625,
+        1066.7811279296875,
+        1771.727783203125,
+        414.6395568847656
+      ],
+      "color": "#8A8",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.4594972986357286,
+      "offset": [
+        813.9220518339987,
+        318.9716152932991
+      ]
+    },
+    "frontendVersion": "1.18.9",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true,
+    "ue_links": [],
+    "links_added_by_ue": []
+  },
+  "version": 0.4
+}
