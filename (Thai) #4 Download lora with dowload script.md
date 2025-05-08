@@ -85,5 +85,9 @@ curl (ลิ้งที่จะดาวโหลด)
 ## 9. My downloader script!! EASY!! โหลดอย่างไว!!
 สคริปต์ดาวน์โหลดของฉันออกแบบมาให้ใช้งานง่ายและรวดเร็ว สามารถดาวน์โหลดไฟล์จากหลาย ๆ แหล่งในครั้งเดียว ช่วยให้การจัดการไฟล์ Loras ของคุณเป็นไปอย่างราบรื่นและมีประสิทธิภาพ <br> ดาวน์โหลด File Script
 
-
+## download from Hugginface when need permission, create your Access token from Huggin face
+```
+wget --header="Authorization: Bearer hf_xxxxxxxxxxxxxxxxxxxxxxxx" \
+"https://huggingface.co/xxxxxxxxxxxxxxxxx.safetensors"
+```
 
