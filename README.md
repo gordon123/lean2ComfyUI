@@ -18,7 +18,7 @@ Feel free to leave a comment if you find it useful!<br>
 
 ## 🎯Wan2.1 Basic
 ### T2V = Text to video
-✅ อัดคลิปแล้ว  ✅ ตัดต่อเสร็จแล้ว
+✅ อัดคลิปแล้ว  ✅ ตัดต่อเสร็จแล้ว 
 ### i2V = Image to video
 ✅ อัดคลิปแล้ว  ❌ ตัดต่อเสร็จแล้ว
 
@@ -30,8 +30,9 @@ Feel free to leave a comment if you find it useful!<br>
 ### Inpaint 
 ❌ อัดคลิปแล้ว  ❌ ตัดต่อเสร็จแล้ว
 ### Control Camera
-✅ อัดคลิปแล้ว  ❌ ตัดต่อเสร็จแล้ว
-https://github.com/amao2001/ganloss-latent-space/blob/main/workflow/2025-05-05%20wanvideo_Fun_control_camera.json
+✅ อัดคลิปแล้ว  ❌ ตัดต่อเสร็จแล้ว  <br>
+
+[workflow](https://github.com/amao2001/ganloss-latent-space/blob/main/workflow/2025-05-05%20wanvideo_Fun_control_camera.json)
 
 ## 🎯Wan2.1 Advance technique
 https://huggingface.co/Kijai/WanVideo_comfy
@@ -50,10 +51,10 @@ https://github.com/lllyasviel/FramePack
 TBA
 ### Fantasy talking
 https://github.com/Fantasy-AMAP/fantasy-talking <br>
+[workflow](https://github.com/amao2001/ganloss-latent-space/blob/main/workflow/2025-05-03%20FantasyTalking.json)
+<br>
 
-https://github.com/amao2001/ganloss-latent-space/blob/main/workflow/2025-05-03%20FantasyTalking.json
 
-https://github.com/amao2001/ganloss-latent-space/tree/main/workflow
 ## 🎯Wan2.1 Applied Project
 ### Create Video Lipsync + Padcast + GoogleKLM + สร้างช่อง youtube
 ❌ อัดคลิปแล้ว  ❌ ตัดต่อเสร็จแล้ว
