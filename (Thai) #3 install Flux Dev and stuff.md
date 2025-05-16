@@ -3,7 +3,7 @@
 [![Watch on YouTube](https://img.youtube.com/vi/hpuM1499emI/0.jpg)](https://www.youtube.com/watch?v=hpuM1499emI)
 
 ### 1. ดาวน์โหลดไฟล์ Install_Model_Flux_ON_Runpod.ipynb  
-- ไฟล์นี้อยู่ในโฟลเดอร์ **File script**  
+- ไฟล์นี้อยู่ในโฟลเดอร์ [**File script**](https://github.com/gordon123/lean2ComfyUI/tree/main/file%20script)  
 
 ### 2. อัปโหลดไฟล์ไปยัง JupyterLab  
 - ดาวน์โหลดไฟล์ลงเครื่องก่อน  
@@ -25,7 +25,7 @@
 ### 7. ตัวอย่าง Token Key  
 - ได้รับ **Token Key** ที่หน้าตาแบบนี้  
   ```
-  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
+  hf_NKauyIDgxfkabnvclDkCkKLfQlYDk 
   ```
 
 ### 8. **Grant Access ก่อนโหลดโมเดล**  
