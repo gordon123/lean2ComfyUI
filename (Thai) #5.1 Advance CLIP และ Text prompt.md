@@ -65,7 +65,7 @@ t5xxl_8 = 1.6
 - Prompt Split (CLIP+T5) ใน Flux.1
 - https://platform.openai.com/tokenizer <br>
 
-![alt text](<Screenshot 2025-05-13 at 01.06.59.png>)
+<img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/flux-attention-block.png?raw=true" alt="Attention block LORA" width="150"/>
 
 ## ✅ 7. สรุปแนวทางใช้งาน
 
