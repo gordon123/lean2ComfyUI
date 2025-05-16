@@ -1,5 +1,26 @@
 # 📘  การควบคุม Prompt ด้วย CLIP และ T5XXL สำหรับ Flux.1 และ ComfyUI
 
+<img src="https://preview.redd.it/flux-guidance-added-to-comfyui-v0-gn4an2rffagd1.jpeg?width=985&format=pjpg&auto=webp&s=c6deb3809cc1299b6ed51a4ad1da79d1124ab19f" alt="CLIPTextEncodeFlux" width="400"/>
+
+ทดลองใช้ ChatGPT ตัวนี้สำหรับ สร้าง Flux prompt [credit _roblaughter_ from Reddit](https://www.reddit.com/r/StableDiffusion/comments/1eid4r0/flux_guidance_added_to_comfyui/)
+<br>
+สำหรับใครใช้ ChatGPT
+https://chatgpt.com/g/g-OndbVJ3Et-image-prompt-generator
+<br>
+สำหรับใครอยากเข้าไปดู source code node นี้
+[source code Node CLIPTextEncoderFlux](https://github.com/comfyanonymous/ComfyUI/commit/eca962c6dae395cab1258456529030880c188734)
+```
+"Can you show me how to write prompts for FLUX using T5 and CLIP-L, based on this concept: [insert your concept]?"
+```
+T5XXL example prompt
+```
+A cinematic still from a horror-style music video, featuring a female singer in a dark, decaying room lit only by flickering candles. Her makeup is gothic, with dark lipstick and smeared eyeliner, wearing a torn black dress. The walls are cracked, damp, and covered in shadow. Her silhouette is backlit by an eerie red glow, while faint fog swirls at her feet. The mood is tense and unsettling, evoking themes of isolation and dread. Shot in ultra low-key lighting with high contrast, muted colors, and a grainy film texture. Inspired by gothic horror, late 90s music videos, and analog video aesthetics.
+```
+CLIP-L example prompt
+```
+horror music video, female singer, gothic makeup, torn black dress, abandoned room, candlelight, eerie red backlight, fog, dark tones, high contrast, low key lighting, analog video look, grainy film, unsettling mood, gothic horror, decayed walls, cinematic still
+```
+
 [Transformer Encoder Self-Attention Mechanism](https://arxiv.org/abs/1706.03762) กดที่ลิ้งเพื่ออ่านงานวิจัย <br>
 ใช้กระบวนการ patch embeddings using multi-head self-attention (MHSA). แต่ละ patch จะเข้าร่วม กับ patch อื่น ๆ เพื่อหาความสัมพันธ์ <br>
 Self-Attention Mechanism เป็นเทคนิคที่ใช้ใน Transformer เพื่อให้โมเดลสามารถโฟกัสไปยังข้อมูลที่สำคัญใน Input Sequence โดยใช้ Query (Q), Key (K), และ Value (V) <br>
@@ -29,7 +50,8 @@ Value (V) → ข้อมูลจริงที่ถูกใช้ <br>
 ## 📌 2. ตัวอย่างการปรับค่าเพื่อให้ได้ภาพ “เศร้าอย่างลึก”
 
 Prompt:
-```text
+```
+text
 a woman sitting alone in a dark room, crying in silence, sorrow filling the air
 ```
 
