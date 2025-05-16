@@ -54,7 +54,7 @@ t5xxl_8 = 1.6
 - Dalvi et al. (2021). *What Do NLP Transformers Learn?* — [arXiv:2004.10813](https://arxiv.org/abs/2004.10813)
 - CLIP paper by OpenAI — [arXiv:2103.00020](https://arxiv.org/abs/2103.00020)
 - HuggingFace CLIP Tokenizer: https://huggingface.co/openai/clip-vit-base-patch32
-- Aman Arora: *Understanding CLIP* [Blog Post](https://amaarora.github.io/posts/2023-03-11_Understanding_CLIP_part_2.html)
+- Aman Arora: [*Understanding CLIP* Part1](https://amaarora.github.io/posts/2023-03-06_Understanding_CLIP.html)  and [Blog Post Part2](https://amaarora.github.io/posts/2023-03-11_Understanding_CLIP_part_2.html) 
 - Prompt ablation method via Reddit / Flux Discord
 
 ## 🛠️ 6. เครื่องมือที่แนะนำ
