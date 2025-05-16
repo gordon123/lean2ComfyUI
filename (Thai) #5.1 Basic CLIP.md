@@ -1,6 +1,6 @@
 # Stable diffusion คืออะไร
 
-![stable diffusion](image-4.png)
+<img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/stable-diffusion.png?raw=true" alt="Attention block LORA" width="600"/>
 **Picture 1.** Simple steps to generate image with stable diffusion <br>
 
  ถ้าอธิบายภาษาบ้าน ๆ ดูตามรูปเลย คือ เขียนข้อความ แล้วใช้โมเดล ของ Stable diffusion  หลัก ๆ สามตัวนี้ คือ CLIP, U-Net และ VAE
@@ -14,7 +14,7 @@
 อย่างที่บอก Stable diffusion มีองค์ประกอบหลัก ๆ  3 โมเดล 
 
 1. Contrastive Language-Image Pretraining (CLIP) - เป็นเหมือนตัวจับคู่ ภาพกับข้อความ โดยใช้เครื่องมือ ที่เรียกว่า การ Transformer (แปลงให้เป็นตัวเลข ในรูป Vector, matric, Tensors, Flat number) ถ้าเป็นรูป เรียกว่า Vision Transformer (ViT) ถ้าเป็น ตัวอักษรเรียกว่า  Text transformer
-![example vector to tensor](image-8.png) <br>
+<img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/tensor.png?raw=true" alt="Attention block LORA" width="400"/> <br>
 **Picture 2.** Example vector to Tensors <br>
 
 ![image](https://github.com/user-attachments/assets/c7ed0400-06a6-4d71-ad75-a7d00a50d3b0) <br>
@@ -86,7 +86,7 @@ CLIP ใช้ Vision Transformer (ViT) หรือ ResNet <br>
 
 ## 2️⃣ สูตรคำนวณ Cosine similarity
 
-![alt text](image-5.png) <br>
+<img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/cosine-equation.png?raw=true" alt="Attention block LORA" width="400"/> <br>
 **Picture 4.** สมาการการคำนวณ Cosine Similarity เพื่อใช้ในการเช็คว่า ข้อความใกล้เคียงกับรูปภาพมากแค่ไหน <br>
 
 where:
@@ -121,8 +121,8 @@ Magnitude (Norm) ของเวกเตอร์ คือค่าที่�
 ### **🔹 Magnitude รูปภาพแมว 🐱** <br>
 อย่างเช่น เรามี vector ของรูปภาพ <br>
 A=[0.2,0.7,0.1,0.9] <br>
+<img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/example-similarity-calculation.png?raw=true" alt="Attention block LORA" width="600"/>
 
-![magnitude of image calculation](image-6.png)
 **Picture 5.** วิธีการคำนวณ magnitude ของรูปภาพ <br>
 ในการคำนวณ Cosine Similarity, เราต้องใช้ Magnitude เพื่อปรับสเกลของเวกเตอร์: <br>
 ใช้ สัญลักษณ์ ||A|| <br>
@@ -131,8 +131,7 @@ A=[0.2,0.7,0.1,0.9] <br>
 ## **5️⃣ Compute Cosine Similarity** <br>
 
 ### **🔹 Cosine Similarity with "ข้อความ cat"** <br>
-
-![alt text](image-7.png)
+<img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/cosine-similarity.png?raw=true" alt="Attention block LORA" width="400"/>
 
 ---
 
@@ -176,8 +175,7 @@ A=[0.2,0.7,0.1,0.9] <br>
 รูปย่อย ๆ จะแปลงค่าไปเป็นตัวเลข <br>
 This embedding represents key features of the patch. <br>
 🔹 Formula for Patch Embeddings: <br>
-
-![formular patch embedding](image-1.png)
+<img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/embedding-equation.png?raw=true" alt="Attention block LORA" width="600"/>
 
 3️⃣ ใส่ค่า Token <br>
 A [CLS] token เพื่อใช้ในการจำแนกรูปภาพภายหลัง <br>
@@ -190,7 +188,7 @@ Self-Attention Mechanism เป็นเทคนิคที่ใช้ใน 
 Query (Q) → ข้อมูลที่ใช้ค้นหาสิ่งที่สำคัญ <br>
 Key (K) → ตัวบ่งชี้ความสำคัญของข้อมูล <br>
 Value (V) → ข้อมูลจริงที่ถูกใช้ <br>
-![self-attention mechanism](image-2.png) <br>
+<img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/self-attention-formula.png?raw=true" alt="Attention block LORA" width="400"/> <br>
 ตามอ่านเรื่องนี้ได้จาก https://arxiv.org/abs/1706.03762 <br>
 
 ถ้าอธิบายภาษาบ้าน ๆ คือ เหมือนเป็นตัวกรอง และหาเป้าหมายจากข้อมูลใหญ่ ๆ ให้เจอสิ่งที่ต้องการ  <br>
@@ -218,7 +216,7 @@ Value (V) → ข้อมูลจริงที่ถูกใช้ <br>
 
 ใครงง ตรงไหน แปะถามคุยกันได้ครับ FB ผมอยู่หน้าโปรไฟล์
 
-คำเตือนผู้เขียน ไม่ได้เรียนหรือมีความรู้ด้านนี้โดยตรง โปรดอ้างอิงไปที่งานวิจัยเพือความถูกต้อง  <br>
+**คำเตือนผู้เขียน ไม่ได้เรียนหรือมีความรู้ด้านนี้โดยตรง โปรดอ้างอิงไปที่งานวิจัยเพือความถูกต้อง**  <br>
 ติดตาม ต่อ [ข้อ 5.2 เรื่อง U-Net](https://github.com/gordon123/lean2ComfyUI/blob/main/(Thai)%20%235.2%20Basic%20U-Net.md)
 
 ### References
