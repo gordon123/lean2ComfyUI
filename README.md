@@ -18,9 +18,11 @@ Feel free to leave a comment if you find it useful!<br>
 
 ## 🎯Wan2.1 Basic
 ### T2V = Text to video
-✅ อัดคลิปแล้ว  ✅ ตัดต่อเสร็จแล้ว 
+✅ อัดคลิปแล้ว  ✅ ตัดต่อเสร็จแล้ว  <img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/Youtube-logo%20(1).png?raw=true" alt="YouTube Logo" width="20"/> [**ON-AIR**](https://youtu.be/bmcj86FEI1M?si=XHSJhQNCWUTVwHDy)
+
+
 ### i2V = Image to video
-✅ อัดคลิปแล้ว  ❌ ตัดต่อเสร็จแล้ว
+✅ อัดคลิปแล้ว  ✅ ตัดต่อเสร็จแล้ว <img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/Youtube-logo%20(1).png?raw=true" alt="YouTube Logo" width="20"/> Soon!
 
 ## 🎯Wan2.1 Fun
 ### FLF2V First & Last Frame to Video
