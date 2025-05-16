@@ -10,7 +10,7 @@
 หลังจากสมัครและล็อกอินบน CivitAI แล้ว ให้ไปที่หน้าหมวด Models และใช้ Filter เพื่อค้นหาโมเดล Lora ที่ต้องการ โดยในตัวอย่างนี้จะเน้น Lora ที่เหมาะสำหรับ Flux1.dev หรือ Flux1.d เพื่อให้ได้ผลลัพธ์ที่เข้ากันกับโปรเจคของคุณ <br>
 <img width="576" alt="Screenshot 2025-02-11 at 13 35 21" src="https://github.com/user-attachments/assets/fed9f819-a8a4-40e6-ab4e-a7352f5654dd" />
 
-และก็การขอ API key ไปที่ settings เลื่อนลงไปด้านล่าง หรือดูตัวอย่างในคลิปนี้
+และก็การขอ API key ไปที่ settings เลื่อนลงไปด้านล่าง [หรือดูตัวอย่างในคลิปนี้](https://youtu.be/qcH7g1FnMHg?si=D32L3u5Z0GceOy87)
 
 ## 2. Hugging Face
 [Hugging Face](https://huggingface.co/) <br>
