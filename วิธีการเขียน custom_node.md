@@ -74,14 +74,14 @@ class MyNode: # ชื่อ customnode
 
 ```__init__.py # โครงสร้าง init จะประมาณนี้ เพื่อทำให้สามารถ โหลด custom node ได้
 
-from .my_node import MyNode
+from .my_node #ชื่อไฟล์ import MyNode #ชื่อ class
 
 NODE_CLASS_MAPPINGS = {
     "MyNode": MyNode
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "MyNode": "🧩 My Custom Node"
+    "MyNode": "🧩 My Custom Node" # ชื่อใน comfyui 
 }
 ```
 
@@ -116,4 +116,100 @@ fi
 
 echo "🚀 Starting ComfyUI..."
 python main.py --listen
+```
+
+---
+
+# ตั้งค่า Ollama CLI และโมเดล `gemma3:latest` บน Linux (runpod container)
+
+1. **ติดตั้ง Ollama ด้วยสคริปต์อย่างเป็นทางการ**
+   ```bash
+   curl -fsSL https://ollama.com/install.sh | sh
+
+    ```
+## 2. เปิดใช้งาน Ollama API server
+```bash
+ollama serve --console &
+sleep 3  # รอให้ server พร้อมรับคำสั่ง
+```
+```
+ollama --version
+ollama list
+```
+```
+ollama pull gemma3:latest
+```
+
+👉 ถ้าวิธีข้างบนใช้ไม่ได้ (เช่น ระบบไม่เชื่อมเน็ตตรงกับ ollama.com) ให้ใช้วิธี manual:
+```
+# 1) ดึง URL จาก GitHub Releases
+RELEASE_URL=$(
+  curl -s https://api.github.com/repos/ollama/ollama/releases/latest \
+    | grep browser_download_url \
+    | grep 'linux-amd64\.tgz' \
+    | cut -d '"' -f 4
+)
+echo "$RELEASE_URL"
+
+# 2) ดาวน์โหลด + แตกไฟล์
+curl -L "$RELEASE_URL" -o ollama.tgz
+tar -xzf ollama.tgz
+
+# 3) ย้าย binary ไปใน PATH
+mv bin/ollama /usr/local/bin/ollama
+chmod +x /usr/local/bin/ollama
+
+# 4) สตาร์ท server
+ollama serve --console &
+sleep 3
+
+# 5) ทดสอบ & pull โมเดล
+ollama --version
+ollama list
+ollama pull gemma3:latest
+```
+
+```
+# แสดงความช่วยเหลือทุกคำสั่ง
+ollama help
+ollama --help
+
+# เริ่มต้น Ollama API server (ต้องรันค้างไว้)
+ollama serve
+
+# ดูรายชื่อโมเดลที่ติดตั้งบนเครื่อง
+ollama list
+
+# ดาวน์โหลดโมเดลจากคลังกลางลงมา
+ollama pull <model>:<tag>
+# ตัวอย่าง:
+ollama pull gemma3:latest
+
+# ลบโมเดลที่ไม่ใช้แล้ว
+ollama rm <model>:<tag>
+# หรือจะใช้ alias “delete” ก็ได้
+ollama delete <model>:<tag>
+
+# รันโมเดลด้วย prompt ที่ป้อน
+ollama run <model>:<tag> --prompt "ข้อความของเธอ"
+# ถ้าต้องการสตรีมผลลัพธ์:
+ollama run <model>:<tag> --stream --prompt "ข้อความของเธอ"
+
+# ดูเวอร์ชันของ CLI
+ollama --version
+
+# เช็คสถานะ server, logs เบื้องต้น
+ollama logs      # ข้อความจาก server stdout/stderr
+ollama status    # รายละเอียดการเชื่อมต่อ และพอร์ต
+
+# ตั้งค่า Default port หรือ host ถ้าต้องการ
+OLLAMA_HOST=127.0.0.1 OLLAMA_PORT=11434 ollama run ...
+
+# ส่งไฟล์เข้าโมเดล (บางโมเดลรองรับไฟล์ภาพ เอกสาร ฯลฯ)
+ollama run <model>:<tag> --file path/to/file.png
+
+# คำสั่งขั้นสูง
+ollama retag <model>:<oldtag> <model>:<newtag>   # เปลี่ยน tag
+ollama prune                                     # ลบข้อมูลเก่าที่ไม่ใช้แล้ว
+
 ```
