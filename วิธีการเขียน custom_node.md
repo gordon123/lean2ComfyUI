@@ -84,3 +84,36 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "MyNode": "🧩 My Custom Node"
 }
 ```
+
+## check process runing
+```
+apt update && apt install -y lsof
+```
+
+```
+lsof -i :8188
+
+COMMAND  PID USER   FD   TYPE   DEVICE SIZE/OFF NODE NAME
+python  4303 root   49u  IPv4 33705799      0t0  TCP *:8188 (LISTEN)
+
+kill process ที่ค้าง เช่น
+kill -9 4303
+
+```
+
+Shell script
+``` 
+#!/bin/bash
+PORT=8188
+PID=$(lsof -t -i:$PORT)
+
+if [ -n "$PID" ]; then
+    echo "⚠️ Port $PORT already in use by PID $PID. Killing it..."
+    kill -9 $PID
+else
+    echo "✅ Port $PORT is free."
+fi
+
+echo "🚀 Starting ComfyUI..."
+python main.py --listen
+```
