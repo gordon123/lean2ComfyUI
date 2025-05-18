@@ -4,7 +4,9 @@ https://github.com/kijai/ComfyUI-WanVideoWrapper
 
 T2V
 ## == Model Custom node
+
 ### WanVideo BlockSwap - สวิช GPU -CPU
+
 ### WanVideo Lora Select - lora 
 https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-T2V-14B_CausVid_fp8_e4m3fn.safetensors
 ### WanVideo VACE Model Select - VACE model 
@@ -16,4 +18,14 @@ https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-T2V-14B_CausVid_fp8
 
 ### WanVideo Sampler
 
-<img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/Youtube-logo%20(1).png?raw=true" alt="YouTube Logo" width="20"/>
+<img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/wanvideo-sampler.png?raw=true" alt="WanVideo Sampler" width="300"/>
+
+### Model ==
+
+
+--- 
+## T2V
+
+## I2V
+
+## V2V (VACE)
