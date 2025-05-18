@@ -1,3 +1,6 @@
+# กำลังเขียน ไม่เสร็จ เด้อ
+
+
 ## WAN2.1 Video wrapper note
 https://huggingface.co/Kijai/WanVideo_comfy/tree/main
 https://github.com/kijai/ComfyUI-WanVideoWrapper
@@ -21,10 +24,14 @@ https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-T2V-14B_CausVid_fp8
 <img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/wanvideo-sampler.png?raw=true" alt="WanVideo Sampler" width="300"/>
 
 ### Model ==
-
+<img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/wanvideo-model-loader.png?raw=true" alt="WanVideo Sampler" width="300"/> <br>
+Note: sageatten speed up, than spda
 
 --- 
 ## T2V
+
+== หลักการเขียน Prompt
+การใช้ Prompt ที่
 
 ## I2V
 
