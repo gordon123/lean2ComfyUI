@@ -18,11 +18,11 @@ Feel free to leave a comment if you find it useful!<br>
 
 ## 🎯Wan2.1 Basic
 ### T2V = Text to video
-✅ อัดคลิปแล้ว  ✅ ตัดต่อเสร็จแล้ว  <img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/Youtube-logo%20(1).png?raw=true" alt="YouTube Logo" width="20"/> [**ON-AIR**](https://youtu.be/bmcj86FEI1M?si=XHSJhQNCWUTVwHDy)
+✅ อัดคลิปแล้ว  ✅ ตัดต่อเสร็จแล้ว  <img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/Youtube-logo%20(1).png?raw=true" alt="YouTube Logo" width="20"/> [**ON-AIR**](https://www.youtube.com/playlist?list=PLSPWSpkmItyLFCZBAXi4YSLHC9xBx5h6t)
 
 
 ### i2V = Image to video
-✅ อัดคลิปแล้ว  ✅ ตัดต่อเสร็จแล้ว <img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/Youtube-logo%20(1).png?raw=true" alt="YouTube Logo" width="20"/> Soon!
+✅ อัดคลิปแล้ว  ✅ ตัดต่อเสร็จแล้ว <img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/Youtube-logo%20(1).png?raw=true" alt="YouTube Logo" width="20"/> [**ON-AIR**](https://www.youtube.com/playlist?list=PLSPWSpkmItyLFCZBAXi4YSLHC9xBx5h6t)
 
 ## 🎯Wan2.1 Fun
 ### FLF2V First & Last Frame to Video
@@ -40,21 +40,16 @@ Feel free to leave a comment if you find it useful!<br>
 https://huggingface.co/Kijai/WanVideo_comfy
 ### In Context 
 ❌ อัดคลิปแล้ว  ❌ ตัดต่อเสร็จแล้ว
-### VACE
+### [VACE](https://github.com/ali-vilab/VACE)
 ❌ อัดคลิปแล้ว  ❌ ตัดต่อเสร็จแล้ว
 ### Wan Lip sync
 ❌ อัดคลิปแล้ว  ❌ ตัดต่อเสร็จแล้ว
-### Framepack
+### Framepack F1
 ❌ อัดคลิปแล้ว  ❌ ตัดต่อเสร็จแล้ว
 https://github.com/lllyasviel/FramePack
 ### Wan Frame Interpolation + Upscale
 ❌ อัดคลิปแล้ว  ❌ ตัดต่อเสร็จแล้ว
-### OmniHuman
-TBA
-### Fantasy talking
-https://github.com/Fantasy-AMAP/fantasy-talking <br>
-[workflow](https://github.com/amao2001/ganloss-latent-space/blob/main/workflow/2025-05-03%20FantasyTalking.json)
-<br>
+
 
 
 ## 🎯Wan2.1 Applied Project
@@ -66,6 +61,22 @@ https://github.com/Fantasy-AMAP/fantasy-talking <br>
 ❌ อัดคลิปแล้ว  ❌ ตัดต่อเสร็จแล้ว
 ### Create Music, Asses, etc and Selling to stock Photo, ecomerce
 ❌ อัดคลิปแล้ว  ❌ ตัดต่อเสร็จแล้ว
+
+### Fantasy talking
+https://github.com/Fantasy-AMAP/fantasy-talking <br>
+[workflow](https://github.com/amao2001/ganloss-latent-space/blob/main/workflow/2025-05-03%20FantasyTalking.json)
+<br>
+
+
+### OmniHuman
+TBA <br>
+อื่นๆ <br>
+[MoviiGen](https://github.com/ZulutionAI/MoviiGen1.1) <br>
+Float <br>
+[CausVid](https://huggingface.co/lightx2v/Wan2.1-T2V-14B-CausVid) <br>
+
+### Audio TTS, voice
+[ComfyUI_NTCosyVoice](https://github.com/muxueChen/ComfyUI_NTCosyVoice/tree/main)
 
 ---
 Custom node list ! recommended 

@@ -1,5 +1,5 @@
 # กำลังเขียน ไม่เสร็จ เด้อ
-
+<img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/underconstruction.png?raw=true" alt="WanVideo Sampler" width="300"/>
 
 ## WAN2.1 Video wrapper note
 https://huggingface.co/Kijai/WanVideo_comfy/tree/main
@@ -32,6 +32,15 @@ Note: sageatten speed up, than spda
 
 == หลักการเขียน Prompt
 การใช้ Prompt ที่
+
+```
+{Prompt word = + subject (subject description) 
+                 + scene (scene description) 
+                 + movement (movement description) 
+                 + lens language + atmosphere word 
+                 + stylization}
+```
+
 
 ## I2V
 
