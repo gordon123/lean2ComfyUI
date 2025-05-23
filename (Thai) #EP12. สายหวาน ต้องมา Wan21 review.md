@@ -1,5 +1,11 @@
 1. สำหรับ ใครจะ install ComfyUI บน [Runpod](https://tinyurl.com/register2runpod) สามารถดูวิธีกาลใช้แบบละเอียดได้ใน [youtube ep.1](https://youtu.be/KvZRuwcZ3Is?si=_zS3CbwGiDEoAhId) ผ่าน Script ด้วย Jupyter, หรือ ทำตาม ep.12 ใช้ script แบบ command line ตามอ่านได้ในบทนี้
 
+### สำหรับใครที่ vram < 8GB-12GB ลองใช้ GGUF น่าจะเร็วขึ้น
+Download จาก  <br>
+[T2V](https://huggingface.co/city96/Wan2.1-T2V-14B-gguf/tree/main)    <br>
+แนะนำสำหรับ ram 8GB VGA[i2V 480p](https://huggingface.co/city96/Wan2.1-I2V-14B-480P-gguf/tree/main)   <br>
+แนะนำสำหรับ ram 12GB VGA[i2v 720p](https://huggingface.co/city96/Wan2.1-I2V-14B-720P-gguf/tree/main)  <br>
+
 ### 2. สร้าง vritual environment ชื่อ venv
 ```
 python -m venv venv
