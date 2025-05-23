@@ -79,11 +79,10 @@ Float <br>
 ### Audio TTS, voice
 [ComfyUI_NTCosyVoice](https://github.com/muxueChen/ComfyUI_NTCosyVoice/tree/main)
 
-### สำหรับใครที่ vram < 8GB-12GB ลองใช้ GGUF น่าจะเร็วขึ้น
+### สำหรับใครที่ vram < 8GB-12GB ลองใช้ โมเดล GGUF น่าจะเร็วขึ้น
 
 Download จาก  <br>
-
-[T2V](https://huggingface.co/city96/Wan2.1-T2V-14B-gguf/tree/main)    <br>
+8, 12 GB [T2V](https://huggingface.co/city96/Wan2.1-T2V-14B-gguf/tree/main)    <br>
 แนะนำสำหรับ ram 8GB VGA [i2V 480p](https://huggingface.co/city96/Wan2.1-I2V-14B-480P-gguf/tree/main)   <br>
 แนะนำสำหรับ ram 12GB VGA [i2v 720p](https://huggingface.co/city96/Wan2.1-I2V-14B-720P-gguf/tree/main)  <br>
 12GB ram ก็แนะนำใช้พวก FP8 version ด้วยเหมือนกัน โหลดได้จาก Model manager
