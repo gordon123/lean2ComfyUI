@@ -199,8 +199,13 @@ A pale woman stands alone in a dark endless void, the air filled with ghostly ec
 ### 🎯 Keyword สำคัญ (สำหรับ CLIP L):
 ```
 dark void, echo, distant voice, surreal atmosphere, pale woman, black dress, overhead light
-
 ```
-ทดลองเอาไปใส่ workflow flux
-reset ทุกเลเยอร์ ก่อน
+ทดลองเอาไปใส่ workflow flux <br>
+reset ทุกเลเยอร์ ก่อน <br>
 
+**Ref. น่าอ่าน** <br>
+https://huggingface.co/docs/transformers/en/tokenizer_summary <br>
+https://github.com/google/sentencepiece <br>
+https://arxiv.org/abs/1808.06226 <br>
+https://www.tensorflow.org/text/api_docs/python/text/SentencepieceTokenizer <br>
+https://pypi.org/project/sentencepiece/ <br>
