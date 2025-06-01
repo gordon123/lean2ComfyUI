@@ -28,7 +28,7 @@ Feel free to leave a comment if you find it useful!<br>
 ### FLF2V First & Last Frame to Video
 ✅ อัดคลิปแล้ว  ✅ ตัดต่อเสร็จแล้ว <img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/Youtube-logo%20(1).png?raw=true" alt="YouTube Logo" width="20"/> [**ON-AIR**](https://www.youtube.com/playlist?list=PLSPWSpkmItyLFCZBAXi4YSLHC9xBx5h6t)
 ### Control: Control net
-✅ อัดคลิปแล้ว  ✅ ตัดต่อเสร็จแล้ว <img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/Youtube-logo%20(1).png?raw=true" alt="YouTube Logo" width="20"/> [**SOON*]
+✅ อัดคลิปแล้ว  ✅ ตัดต่อเสร็จแล้ว <img src="https://github.com/gordon123/lean2ComfyUI/blob/main/image/img/Youtube-logo%20(1).png?raw=true" alt="YouTube Logo" width="20"/> [**ON-AIR**](https://www.youtube.com/playlist?list=PLSPWSpkmItyLFCZBAXi4YSLHC9xBx5h6t)
 ### Inpaint 
 ❌ อัดคลิปแล้ว  ❌ ตัดต่อเสร็จแล้ว
 
