@@ -68,7 +68,7 @@ https://github.com/lllyasviel/FramePack
 https://github.com/Fantasy-AMAP/fantasy-talking <br>
 [workflow](https://github.com/amao2001/ganloss-latent-space/blob/main/workflow/2025-05-03%20FantasyTalking.json)
 <br>
-
+Wan 2.1 ATI Trajectory based Motion Control  <br>
 
 ### OmniHuman
 TBA <br>
