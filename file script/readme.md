@@ -73,3 +73,10 @@ https://huggingface.co/zer0int/CLIP-GmP-ViT-L-14/tree/main<br>
 T5 <br>
 https://huggingface.co/comfyanonymous/flux_text_encoders/tree/main <br>
 
+Flux VAE
+```
+wget --header="Authorization: Bearer hf_ไปสร้าง Token มาวางในนี้" \
+"https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors"
+```
+
+
