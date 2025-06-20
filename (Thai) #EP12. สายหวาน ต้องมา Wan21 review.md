@@ -88,7 +88,7 @@ GGUF
 14B Q3-s- 30steps - 243s
 ```
 ## Teacache setting guide
-![alt text](<Screenshot 2025-05-08 at 12.56.08.png>)
+![alt text](</image/img/teacache-table.png>)
 # Todo-List ราย การที่จะสอน ใน Wan The series (To be continue)
 
 ## 🎯Wan2.1 Basic

@@ -1,23 +1,23 @@
 1. เปิด Jupiter notebook ใน Runpod <br>
-2. เปิด Terminal กดที่ไอคอนนี้ <br><br>![icon terminal on Jupiternotebook](<Screenshot 2025-04-08 at 17.36.27.png>)
+2. เปิด Terminal กดที่ไอคอนนี้ <br><br>![icon terminal on Jupiternotebook](<image/img/terminal-runpod.png>)
 3. ก๊อปปี้ โค้ดอันนี้ เอาไปวางที่ commandline ใน terminal<br><br>
 ```
 git clone https://github.com/comfyanonymous/ComfyUI.git
 ```
 
-![git clone Comfyui](<Screenshot 2025-04-08 at 17.41.24.png>) <br><br>
+![git clone Comfyui](<image/img/git-clone-comfyui.png>) <br><br>
 4. สร้าง Virtual environment ด้วยคำสั่ง 
 ```
 python -m venv myvenv
 ```
 สังเกตเมนูซ้ายมือจะมี โฟลเด้อ myvenv
-![venv](<Screenshot 2025-04-08 at 17.50.21.png>)<br>
+![venv](<image/img/workspace.png>)<br>
 
 5. active virtual environment
 ```
 source myvenv/bin/activate 
 ```
-![activate venv](<Screenshot 2025-04-08 at 18.03.17.png>) <br>
+![activate venv](<image/img/myvenv.png>) <br>
 
 6. Install pytorch <br>
 ใครใช้ การ์ดจอ RTX 30xx 40xx ก๊อบโค้ดนี้  <br>

@@ -62,6 +62,7 @@ https://github.com/lllyasviel/FramePack
 ❌ อัดคลิปแล้ว  ❌ ตัดต่อเสร็จแล้ว
 ### Create Music, Asses, etc and Selling to stock Photo, ecomerce
 ❌ อัดคลิปแล้ว  ❌ ตัดต่อเสร็จแล้ว
+## Wan 2.1 FusionX
 
 ## Todo list อื่นๆ
 ### Fantasy talking
@@ -71,6 +72,7 @@ https://github.com/Fantasy-AMAP/fantasy-talking <br>
 
 
 ### OmniHuman
+### Cosmos
 TBA <br>
 อื่นๆ <br>
 [MoviiGen](https://github.com/ZulutionAI/MoviiGen1.1) <br>
@@ -91,7 +93,7 @@ Download จาก  <br>
 ---
 
 
-Custom node list ! recommended 
+## Custom node list ! recommended 
 1. ComfyUI-Manager
 2. [comfyui_controlnet_aux](https://github.com/Fannovel16/comfyui_controlnet_aux)
 3. [ComfyUI Impact Pack](https://github.com/ltdrdata/ComfyUI-Impact-Pack)
@@ -109,3 +111,9 @@ Custom node list ! recommended
 15. [ComfyUI-WildPromptor](https://github.com/1038lab/ComfyUI-WildPromptor)
 16. [ComfyUI-TeaCache](https://github.com/welltop-cn/ComfyUI-TeaCache) 
 17. [ComfyUI_Custom_Nodes_AlekPet Translate](https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet)
+
+
+## Tools
+1. [kaytool](https://github.com/kk8bit/kaytool) 
+2. [ComfyUI-Crystools](https://github.com/crystian/ComfyUI-Crystools)
+3. [ComfyUI_Custom_Nodes_AlekPet](https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet/tree/master/DeepTranslatorNode)
